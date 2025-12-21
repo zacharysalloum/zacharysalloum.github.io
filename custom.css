@@ -3,3 +3,12 @@ footer.site-footer {
     padding-bottom: 1rem; 
     margin-top: 1rem;    /* optional: reduces space above footer */
 }
+
+.project-image {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 1rem 0; /* spacing above/below image */
+}
+
+<img src="/assets/images/printerCad.png" alt="Cad image" class="project-image">
