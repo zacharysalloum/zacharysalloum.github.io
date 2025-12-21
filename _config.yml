@@ -3,5 +3,4 @@ description: Mechanical engineering portfolio featuring CAD and FEA projects
 theme: jekyll-theme-slate
 sass:
   style: compressed
-
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
