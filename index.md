@@ -15,3 +15,4 @@ footer.site-footer {
   [View project →](/projects/boat)
 
 - **Custom 3D Printer Build**
+![Alt text](printerCad.png)
