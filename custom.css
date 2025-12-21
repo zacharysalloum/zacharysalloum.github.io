@@ -1,0 +1,5 @@
+footer.site-footer {
+    padding-top: 1rem;   /* default is taller, reduces height */
+    padding-bottom: 1rem; 
+    margin-top: 1rem;    /* optional: reduces space above footer */
+}
