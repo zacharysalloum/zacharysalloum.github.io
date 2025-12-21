@@ -4,6 +4,9 @@ footer.site-footer {
     margin-top: 1rem;    /* optional: reduces space above footer */
 }
 
+
+<img src="/assets/images/printerCad.png" alt="Cad image" class="project-image">
+
 .project-image {
     width: 600px;
     height: auto;
@@ -11,4 +14,3 @@ footer.site-footer {
     margin: 1rem 0; /* spacing above/below image */
 }
 
-<img src="/assets/images/printerCad.png" alt="Cad image" class="project-image">
