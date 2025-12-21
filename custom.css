@@ -9,7 +9,7 @@ footer.site-footer {
 <img src="/assets/images/printerCad.png" alt="Cad image" class="project-image">
 
 .project-image {
-    width: 600px;
+    width: 300px;
     height: auto;
     display: block;
     margin: 1rem 0; /* spacing above/below image */
