@@ -1,1 +1,4 @@
-
+/* Header links (Resume, LinkedIn, etc.) */
+.header-links a {
+    font-size: 1.05rem;
+}
