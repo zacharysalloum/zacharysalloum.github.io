@@ -9,5 +9,5 @@ layout: default
 
 - **Custom 3D Printer Build**
 ![3D printer CAD](/assets/images/printerCad.png)
-<img src="printerCad.png" width="300" alt="Screenshot of 3D Printer CAD">
+<img src="printerCad.png" width="300" alt="Screenshot of 3D Printer CAD"> 
 
