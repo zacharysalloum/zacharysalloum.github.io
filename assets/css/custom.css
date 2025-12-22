@@ -1,4 +1,8 @@
 /* Header links (Resume, LinkedIn, etc.) */
 .header-links a {
     font-size: 1.2rem;
+    color: white;              /* make links white */
+    text-decoration: underline;/* underline links */
+    margin-right: 1.25rem;     /* space between links */
+    font-weight: 500;
 }
