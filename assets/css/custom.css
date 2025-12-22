@@ -1,3 +1,7 @@
+body {
+    background: red !important;
+}
+
 /* Header links (Resume, LinkedIn, etc.) */
 .header-links a {
     font-size: 1.2rem;
