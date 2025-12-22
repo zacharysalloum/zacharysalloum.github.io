@@ -8,4 +8,4 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+#<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
