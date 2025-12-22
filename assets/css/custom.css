@@ -22,3 +22,7 @@
     opacity: 0.85;
     margin-top: 1rem;
 }
+
+.page-header {
+    text-align: center;
+}
