@@ -8,8 +8,8 @@
 }
 
 #project_title {
-    font-size: 3rem;
-    margin-bottom: 0.3rem;
+    font-size: 3.5rem;
+    margin-bottom: 0.4rem;
     margin-right: 65px; /* moves name slightly left */
 }
 
@@ -21,11 +21,11 @@
 }
 
 #header_wrap .header-links {
-    margin-top: 0.25rem;
+    margin-top: 0.1rem;
     display: flex;
     justify-content: flex-end; /* align links to right */
     gap: 1.5rem;
-    margin-right: 100px; /* moves links slightly left */
+    margin-right: 125px; /* moves links slightly left */
 }
 
 #header_wrap .header-links a:last-child {
@@ -47,7 +47,7 @@
   position: absolute;
   left: -60px;      /* move image left of text */
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-25%);
         
   width: auto;
   height: 175px;
