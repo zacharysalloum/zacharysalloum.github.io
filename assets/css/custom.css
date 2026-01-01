@@ -5,6 +5,7 @@
     text-decoration: underline; /* underline links */
     margin-right: 1.5rem;     /* space between links */
     font-weight: 500;
+    left: 100px;
 }
 
 #project_title {
@@ -41,11 +42,12 @@
 
 .title-container {
   position: relative;
+  padding-left: 100px; /* space for image */
 }
 
 .header-image {
   position: absolute;
-  left: -170px;      /* move image left of text */
+  left: 20px;      /* move image left of text */
   top: 50%;
   transform: translateY(-30%);
         
