@@ -47,7 +47,7 @@
   position: absolute;
   left: -60px;      /* move image left of text */
   top: 50%;
-  transform: translateY(-30%);
+  transform: translateY(-50%);
         
   width: auto;
   height: 175px;
