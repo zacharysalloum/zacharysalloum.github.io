@@ -27,6 +27,17 @@
     margin-right: 0;
 }
 
+.page-header {
+  background-image: url("/assets/images/ZachHeadshot.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-header {
+  min-height: 300px;
+}
+
+
 #project_tagline {
     margin-top: 0.6rem;
     font-size: 1.1rem;
