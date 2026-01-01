@@ -10,7 +10,7 @@
 #project_title {
     font-size: 3.5rem;
     margin-bottom: 0.4rem;
-    margin-right: 115px; /* moves name slightly left */
+    margin-right: 50px; /* moves name slightly left */
 }
 
 #project_tagline {
