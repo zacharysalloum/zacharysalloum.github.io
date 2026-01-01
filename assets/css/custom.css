@@ -45,7 +45,7 @@
 
 .header-image {
   position: absolute;
-  left: -150px;      /* move image left of text */
+  left: -170px;      /* move image left of text */
   top: 50%;
   transform: translateY(-30%);
         
