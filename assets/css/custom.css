@@ -15,10 +15,10 @@
 
 #project_tagline {
     max-width: 350px; 
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
     font-size: 1.1rem;
     position: relative;
-    left: 160px; /* moves description right */
+    left: 175px; /* moves description right */
 }
 
 #header_wrap .header-links {
