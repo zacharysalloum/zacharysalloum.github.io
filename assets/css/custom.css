@@ -14,6 +14,7 @@
 }
 
 #project_tagline {
+    max-width: 420px; 
     margin-top: 1.5rem;
     font-size: 1.1rem;
     position: relative;
