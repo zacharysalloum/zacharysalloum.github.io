@@ -23,8 +23,13 @@
     left: 175px; /* moves description right */
 }
 
+#header_wrap {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
 #header_wrap .header-links {
-    margin-top: 0.1rem;
+    margin-top: 0.2rem;
     display: flex;
     justify-content: flex-end; /* align links to right */
     gap: 1.5rem;
