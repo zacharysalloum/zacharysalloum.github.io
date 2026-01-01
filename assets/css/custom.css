@@ -39,7 +39,6 @@
 }
 
 .header-image {
-  height: 60px;       /* adjust size here */
+  height: 80px;       /* adjust size here */
   width: auto;
-  border-radius: 50%; /* remove if you want square */
 }
