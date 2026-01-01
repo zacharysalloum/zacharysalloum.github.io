@@ -39,6 +39,10 @@
 }
 
 .header-image {
-  height: 80px;       /* adjust size here */
+  height: 120px;       /* adjust size here */
   width: auto;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: none;
 }
