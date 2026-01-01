@@ -11,6 +11,7 @@
 #project_title {
     font-size: 3rem;
     margin-bottom: 0.3rem;
+    left: 100px;
 }
 
 #header_wrap .header-links {
@@ -47,7 +48,7 @@
 
 .header-image {
   position: absolute;
-  left: 20px;      /* move image left of text */
+  left: -50px;      /* move image left of text */
   top: 50%;
   transform: translateY(-30%);
         
