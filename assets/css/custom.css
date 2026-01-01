@@ -47,8 +47,9 @@
   position: absolute;
   left: -75px;      /* move image left of text */
   top: 50%;
-  transform: translateY(-50%);
-
+  transform: translateY(-80%);
+  transform: translateX(-20%)
+        
   width: auto;
   height: 120px;
   object-fit: cover;
