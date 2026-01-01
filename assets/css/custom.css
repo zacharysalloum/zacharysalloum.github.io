@@ -31,3 +31,15 @@
     margin-top: 0.6rem;
     font-size: 1.1rem;
 }
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-image {
+  height: 60px;       /* adjust size here */
+  width: auto;
+  border-radius: 50%; /* remove if you want square */
+}
