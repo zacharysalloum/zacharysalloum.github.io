@@ -12,39 +12,29 @@
     margin-bottom: 0.3rem;
 }
 
-#header_wrap .header-links {
-    margin-top: 0.25rem;
-}
-
-#header_wrap .header-links a {
-    color: white !important;
-    text-decoration: underline !important;
-    margin-right: 1.5rem;
-    font-size: 1.1rem;
-}
-
-#header_wrap .header-links a:last-child {
-    margin-right: 100;
-}
-
 #project_tagline {
     margin-top: 0.6rem;
     font-size: 1.1rem;
+}
 
+#header_wrap .header-links {
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: flex-end; /* align links to right */
+    gap: 1.5rem;
+}
+
+#header_wrap .header-links a:last-child {
+    margin-right: 100px;
 }
 
 .title-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* <-- key line */
+  justify-content: flex-end; /* <-- key line */
   gap: 15px;
   position: relative;
   padding-right: 100px; /* space from right edge */
-}
-
-.title-container {
-  position: relative;
-  padding-left: 100px; /* space for image */
 }
 
 .header-image {
