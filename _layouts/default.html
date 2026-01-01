@@ -20,7 +20,14 @@
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
 
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+        <div class="title-container">
+  <img src="{{ '/assets/images/ZachHeadshot.jpg' | relative_url }}" 
+       alt="Profile image" 
+       class="header-image">
+  <h1 id="project_title">
+    {{ site.title | default: site.github.repository_name }}
+  </h1>
+</div>
          <nav class="header-links">
   <a href="{{ '/assets/Zach_Resume.pdf' | relative_url }}">Resume</a>
   <a href="https://www.linkedin.com/in/zachsalloum/" target="_blank">
