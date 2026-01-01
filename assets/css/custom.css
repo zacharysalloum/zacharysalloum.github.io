@@ -5,13 +5,12 @@
     text-decoration: underline; /* underline links */
     margin-right: 1.5rem;     /* space between links */
     font-weight: 500;
-    right: 50px;
 }
 
 #project_title {
     font-size: 3rem;
     margin-bottom: 0.3rem;
-    left: 100px;
+    right: 100px;
 }
 
 #header_wrap .header-links {
@@ -26,13 +25,13 @@
 }
 
 #header_wrap .header-links a:last-child {
-    margin-right: 0;
+    margin-right: 100;
 }
 
 #project_tagline {
     margin-top: 0.6rem;
     font-size: 1.1rem;
-    left: 140px;
+    right: 100px;
 }
 
 .title-container {
@@ -49,12 +48,12 @@
 
 .header-image {
   position: absolute;
-  left: -50px;      /* move image left of text */
+  left: -60px;      /* move image left of text */
   top: 50%;
   transform: translateY(-30%);
         
   width: auto;
-  height: 140px;
+  height: 160px;
   object-fit: cover;
   border-radius: 50%;
 
