@@ -5,7 +5,7 @@
     text-decoration: underline; /* underline links */
     margin-right: 1.5rem;     /* space between links */
     font-weight: 500;
-    left: 120px;
+    right: 50px;
 }
 
 #project_title {
@@ -32,7 +32,7 @@
 #project_tagline {
     margin-top: 0.6rem;
     font-size: 1.1rem;
-    left: 120px;
+    left: 140px;
 }
 
 .title-container {
