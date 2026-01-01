@@ -35,6 +35,7 @@
 .title-container {
   display: flex;
   align-items: center;
+  justify-content: flex-start; /* <-- key line */
   gap: 15px;
 }
 
