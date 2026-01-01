@@ -1,6 +1,6 @@
 /* Header links (Resume, LinkedIn, etc.) */
 .header-links a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: white;              /* make links white */
     text-decoration: underline; /* underline links */
     margin-right: 1.5rem;     /* space between links */
@@ -14,10 +14,10 @@
 }
 
 #project_tagline {
-    margin-top: 0.6rem;
+    margin-top: 1rem;
     font-size: 1.1rem;
     position: relative;
-    left: 100px; /* moves description right */
+    left: 125px; /* moves description right */
 }
 
 #header_wrap .header-links {
