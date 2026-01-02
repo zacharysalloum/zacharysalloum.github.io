@@ -3,7 +3,9 @@ layout: default
 ---
 
 
-### Electric Outboard Motor - University of Michigan Electric Boat Team  
+<div align="center">
+  <h2 class="no-underline">Electric Outboard Motor - University of Michigan Electric Boat Team</h2>
+</div>
   [View project →](/projects/boat)
   
 <div align="center">
