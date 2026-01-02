@@ -24,7 +24,7 @@
 
 #header_wrap {
     padding-top: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 0px;
 }
 
 #header_wrap .header-links {
@@ -33,7 +33,7 @@
     gap: 1.5rem;
     margin-right: 100px; /* moves links slightly left */
     position: relative;
-    top: -25px; /* MOVE LINKS UP */
+    top: -20px; /* MOVE LINKS UP */
 }
 
 #header_wrap .header-links a:last-child {
