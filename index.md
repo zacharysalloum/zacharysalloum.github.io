@@ -12,11 +12,11 @@ layout: default
   <h3 class="no-underline">Custom 3D Printer Build - Passion Project</h3>
 </div>
 
+<img src="/assets/images/printerCad.png" alt="Screenshot of 3D Printer CAD" class="center-image">
+
 <div align="center">
   <h4><span class="about-underline">About</span></h4>
 </div>
-
-<img src="/assets/images/printerCad.png" alt="Screenshot of 3D Printer CAD" class="center-image">
 
 <div align="center">
   <h5 class="no-underline">
