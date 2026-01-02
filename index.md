@@ -7,7 +7,7 @@ layout: default
   [View project →](/projects/boat)
   
 <div align="center">
-  <h3>### Custom 3D Printer Build - Passion Project</h3>
+  <h2>Custom 3D Printer Build - Passion Project</h2>
 </div>
 
 <div align="center">
