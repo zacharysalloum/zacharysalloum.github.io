@@ -4,7 +4,6 @@
     color: white;              /* make links white */
     text-decoration: underline; /* underline links */
     margin-right: 1.5rem;     /* space between links */
-    margin-top: 0rem;
     font-weight: 500;
 }
 
@@ -12,7 +11,7 @@
     font-size: 3.5rem;
     margin-top: 0rem;
     position: relative;
-    top: -15px; /* move title up */
+    top: -20px; /* move title up */
 }
 
 #project_tagline {
@@ -24,8 +23,8 @@
 }
 
 #header_wrap {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 #header_wrap .header-links {
@@ -33,6 +32,8 @@
     justify-content: flex-end; /* align links to right */
     gap: 1.5rem;
     margin-right: 100px; /* moves links slightly left */
+    position: relative;
+    top: -10px; /* MOVE LINKS UP */
 }
 
 #header_wrap .header-links a:last-child {
