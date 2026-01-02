@@ -33,7 +33,7 @@
     gap: 1.5rem;
     margin-right: 100px; /* moves links slightly left */
     position: relative;
-    top: -10px; /* MOVE LINKS UP */
+    top: -25px; /* MOVE LINKS UP */
 }
 
 #header_wrap .header-links a:last-child {
