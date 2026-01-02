@@ -16,8 +16,7 @@ layout: default
   <h4><span class="about-underline">About</span></h4>
 </div>
 
-
-<img src="/assets/images/printerCad.png" width="500" alt="Screenshot of 3D Printer CAD" style="display: block; margin: 0 auto;"> 
+<img src="/assets/images/printerCad.png" alt="Screenshot of 3D Printer CAD" class="center-image">
 
 <div align="center">
   <h5 class="no-underline">
