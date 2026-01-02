@@ -5,8 +5,10 @@ layout: default
 
 ### Electric Outboard Motor - University of Michigan Electric Boat Team  
   [View project →](/projects/boat)
-
+  
+<div align="center">
 ### Custom 3D Printer Build - Passion Project
+</div>
 
 <div align="center">
   <h3><span class="about-underline">About</span></h3>
