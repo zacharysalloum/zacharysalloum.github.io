@@ -4,18 +4,22 @@ layout: default
 
 
 <div align="center">
-  <h2 class="no-underline">Electric Outboard Motor - University of Michigan Electric Boat Team</h2>
+  <h3 class="no-underline">Electric Outboard Motor - University of Michigan Electric Boat Team</h3>
 </div>
   [View project →](/projects/boat)
   
 <div align="center">
-  <h2 class="no-underline">Custom 3D Printer Build - Passion Project</h2>
+  <h3 class="no-underline">Custom 3D Printer Build - Passion Project</h3>
 </div>
 
 <div align="center">
-  <h3><span class="about-underline">About</span></h3>
+  <h4><span class="about-underline">About</span></h4>
 </div>
 
-##### The inspiration for this project came from the first 3D printer I owned: a Creality Ender 3. I bought that machine for $150, and it taught me much about 3D printing and additive manufacturing. However, the often inconsistent results and performance of the machine caused me to explore what goes into making a 3D printer that prints rapidly, has a large build space, and produces dimensionally accurate results. The final product leverages the strengths of several different commerically available 3D printers, while addressing many of their design weaknesses.
+<div align="center">
+  <h3 class="no-underline">
+The inspiration for this project came from the first 3D printer I owned: a Creality Ender 3. I bought that machine for $150, and it taught me much about 3D printing and additive manufacturing. However, the often inconsistent results and performance of the machine caused me to explore what goes into making a 3D printer that prints rapidly, has a large build space, and produces dimensionally accurate results. The final product leverages the strengths of several different commerically available 3D printers, while addressing many of their design weaknesses.
+    </h3>
+</div>
 <img src="/assets/images/printerCad.png" width="500" alt="Screenshot of 3D Printer CAD"> 
  
