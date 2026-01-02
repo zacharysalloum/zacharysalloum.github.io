@@ -82,4 +82,5 @@
 
 .no-underline {
     text-decoration: none !important;
+    border-bottom: none !important;   /* remove dotted/faux underline */
 }
