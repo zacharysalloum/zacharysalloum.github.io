@@ -39,7 +39,7 @@ This project was limited by several key constraints. First, it had a total budge
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div>
-    <img src="/assets/images/printerFrame.png" style="width: 300px;">
+    <img src="/assets/images/printerFrame.png" style="width: 250px;">
   </div>
 
 <div style="flex: 1;">
@@ -51,7 +51,7 @@ The first step in the build was assembling the frame. 2020 and 2040 aluminum ext
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div>
-    <img src="/assets/images/printerFrame2.png" style="width: 300px;">
+    <img src="/assets/images/printerFrame2.png" style="width: 250px;">
   </div>
   
 <div style="flex: 1;">
