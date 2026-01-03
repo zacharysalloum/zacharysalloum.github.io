@@ -6,7 +6,6 @@ layout: default
 <div align="center">
   <h3 class="no-underline">Electric Outboard Motor - University of Michigan Electric Boat Team</h3>
 </div>
-  [View project →](/projects/boat)
   
 <div align="center">
   <h3 class="no-underline">Custom 3D Printer Build - Passion Project</h3>
