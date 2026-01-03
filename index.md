@@ -47,10 +47,8 @@ The first step in the build was assembling the frame. 2020 and 2040 aluminum ext
 </div>
 
 <div class="about-row">
-  <img src="/assets/images/printerFrame2.png" class="about-img">
-  <div class="about-text">
+  <img src="/assets/images/printerFrame2.png" style="width: 300px;">
     <p>After the assembly of the frame, the next step was mounting the Y and Z axis linear rods This was accomplished by fabricating custom parts that were 3D printed and mounted to the frame to secure the rods in place. Additionally, custom motor mounts were designed and mounted to attach the Y and Z axis stepper motors. Various other parts were also fabricated, including mounts for endstop sensors and the Y axis belt pulley mount.</p>
-  </div>
 </div>
 
 <div align="center">
