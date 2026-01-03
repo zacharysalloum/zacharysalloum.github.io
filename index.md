@@ -44,10 +44,17 @@ This project was limited by several key constraints. First, it had a total budge
   </div>
 </div>
 
-<div align="left">
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <!-- Image on the left -->
+  <div>
+    <img src="/assets/images/printerFrame2.png" style="width: 300px;">
+  </div>
+  
+<div style="flex: 1;">
   <h5 class="no-underline">
 After the assembly of the frame, the next step was mounting the Y and Z axis linear rods This was accomplished by fabricating custom parts that were 3D printed and mounted to the frame to secure the rods in place. Additionally, custom motor mounts were designed and mounted to attach the Y and Z axis stepper motors. Various other parts were also fabricated, including mounts for endstop sensors and the Y axis belt pulley mount.
-  </h5>
+    </h5>
+  </div>
 </div>
 
 <div align="center">
