@@ -40,7 +40,16 @@ This project was limited by several key constraints. First, it had a total budge
 <div style="display: flex; align-items: center; gap: 20px;">
   <img src="/assets/images/printerFrame.png" style="width: 300px;">
   <div>
-    The first step in the build was assembling the frame. 2020 and 2040 aluminum extrusions stood out as the most effective material for several reasons. First, they are affordable and readily available at a multitude of different sizes. Additionally, they are lightweight, stiff, and able to be fastened together easily. Aluminum profiles can be quixkly fixed together with brackets, screws, and t-nuts. This allows for quick assembly and prototyping. It also makes the process of fastening components to the frame simple, as t-nuts can be inserted directly into the extrusions, eliminating the need to tap threads.
+  <p>
+The first step in the build was assembling the frame. 2020 and 2040 aluminum extrusions stood out as the most effective material for several reasons. First, they are affordable and readily available at a multitude of different sizes. Additionally, they are lightweight, stiff, and able to be fastened together easily. Aluminum profiles can be quixkly fixed together with brackets, screws, and t-nuts. This allows for quick assembly and prototyping. It also makes the process of fastening components to the frame simple, as t-nuts can be inserted directly into the extrusions, eliminating the need to tap threads.
+  </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="/assets/images/printerFrame.png" style="width: 300px;">
+  <div>
+The first step in the build was assembling the frame. 2020 and 2040 aluminum extrusions stood out as the most effective material for several reasons. First, they are affordable and readily available at a multitude of different sizes. Additionally, they are lightweight, stiff, and able to be fastened together easily. Aluminum profiles can be quixkly fixed together with brackets, screws, and t-nuts. This allows for quick assembly and prototyping. It also makes the process of fastening components to the frame simple, as t-nuts can be inserted directly into the extrusions, eliminating the need to tap threads.
   </div>
 </div>
 
