@@ -1,3 +1,7 @@
+.inner {
+    max-width: 1100px !important;  /* default is ~640–800px */
+}
+
 /* Header links (Resume, LinkedIn, etc.) */
 .header-links a {
     font-size: 1.2rem;
