@@ -63,7 +63,7 @@ After the assembly of the frame, the next step was mounting the Y and Z axis lin
 
 <div style="display: flex; align-items: center; gap: 20px;">
   <div>
-    <img src="/assets/images/printerComplete.png" style="width: 250px;">
+    <img src="/assets/images/frameComplete.png" style="width: 250px;">
   </div>
 
 <div style="flex: 1;">
