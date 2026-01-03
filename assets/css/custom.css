@@ -2,9 +2,11 @@
     max-width: 900px !important;  /* default is ~640–800px */
 }
 
-#main-content * {
-  font-family: inherit !important;
+#main-content div,
+#main-content span {
+  font-family: inherit;
 }
+
 /* Header links (Resume, LinkedIn, etc.) */
 .header-links a {
     font-size: 1.2rem;
