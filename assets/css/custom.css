@@ -56,7 +56,7 @@
   justify-content: flex-end; /* <-- key line */
   gap: 15px;
   position: relative;
-  padding-right: 100px; /* space from right edge */
+  padding-right: 400px; /* space from right edge */
 }
 
 /* Header image */
