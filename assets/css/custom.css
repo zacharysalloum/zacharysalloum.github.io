@@ -74,7 +74,7 @@
     text-decoration: underline;
 }
 
-.about-underline {
+.subheader-underline {
     text-decoration: underline !important;
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
