@@ -37,7 +37,7 @@ This project was limited by several key constraints. First, it had a total budge
   <h4><span class="subheader-underline">The Build</span></h4>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="display: flex; align-items: center; gap: 20px;">
   <div>
     <img src="/assets/images/printerFrame.png" style="width: 250px;">
   </div>
@@ -57,6 +57,18 @@ The first step in the build was assembling the frame. 2020 and 2040 aluminum ext
 <div style="flex: 1;">
   <h5 class="no-underline">
 After the assembly of the frame, the next step was mounting the Y and Z axis linear rods This was accomplished by fabricating custom parts that were 3D printed and mounted to the frame to secure the rods in place. Additionally, custom motor mounts were designed and mounted to attach the Y and Z axis stepper motors. Various other parts were also fabricated, including mounts for endstop sensors and the Y axis belt pulley mount.
+    </h5>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div>
+    <img src="/assets/images/printerComplete.png" style="width: 250px;">
+  </div>
+
+<div style="flex: 1;">
+  <h5 class="no-underline">
+Next, the X-axis gantry was assembled. It consists of 2 linear rods that attach to a custom 3D printed piece on each end. Those plastic pieces also contain bearings and leadscrew nuts, allowing the entire X-axis to be moved vertically. A stepper motor is mounted to the plastic bracket on the left, and the belt pulley is fixed to the bracket on the right. Another 3D printed piece is attached to the bearings on the X-axis linear rods. This will serve as the mount for the hot-end and part cooling fan. 
     </h5>
   </div>
 </div>
