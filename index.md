@@ -47,3 +47,11 @@ This CAD model contains all of the custom 3D printed parts used in the build, as
 <div align="center">
   <h4><span class="subheader-underline">The Build</span></h4>
 </div>
+
+<div align="center">
+  <h4><span class="subheader-underline">Issues</span></h4>
+</div>
+
+<div align="center">
+  <h4><span class="subheader-underline">Conculsion</span></h4>
+</div>
