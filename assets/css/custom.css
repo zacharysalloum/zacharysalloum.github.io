@@ -2,9 +2,9 @@
     max-width: 900px !important;  /* default is ~640–800px */
 }
 
-#main-content div,
-#main-content span {
-  font-family: inherit;
+#main-content .inner,
+#main-content .inner * {
+  font-family: inherit !important;
 }
 
 /* Header links (Resume, LinkedIn, etc.) */
