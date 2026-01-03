@@ -94,7 +94,7 @@
 
 .center-image {
     display: block;
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
     margin: 0 auto;
     width: 500px;
@@ -102,5 +102,3 @@
     height: auto;
 }
 
-.left-image{
-    
