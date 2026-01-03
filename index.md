@@ -49,7 +49,7 @@ The first step in the build was assembling the frame. 2020 and 2040 aluminum ext
   </div>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="display: flex; align-items: center; gap: 20px;">
   <div>
     <img src="/assets/images/printerFrame2.png" style="width: 250px;">
   </div>
