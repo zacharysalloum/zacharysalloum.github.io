@@ -33,3 +33,17 @@ The inspiration for this project came from the first 3D printer I owned: a Creal
 This project was limited by several key constraints. First, it had a total budget of $1000. All material and development costs were not able to exceed that figure. Next, the 3D printer must be able to be built without the use of advanced machining processes (mill, lathe, CNC). Since I did not have access to a machine shop, it was necessary that all custom parts on the machine are able to be 3D printed rather than machined. Additionally, the finished product must be able to print at 100mm/s while retaining tolerances of +/- 0.5mm. At speeds of 50mm/s, it must have tolerances of +/- 0.2mm or better. Finally, the printer must be able to be easy to operate, with a screen that displays relevant information about print time and temperature readings.
      </h5>
 </div>
+
+<div align="center">
+  <h4><span class="subheader-underline">CAD Model</span></h4>
+</div>
+
+<div align="center">
+  <h5 class="no-underline">
+This CAD model contains all of the custom 3D printed parts used in the build, as well as the components that were bought off the shelf.
+     </h5>
+</div>
+
+<div align="center">
+  <h4><span class="subheader-underline">The Build</span></h4>
+</div>
