@@ -40,7 +40,7 @@
     display: flex;
     justify-content: flex-end; /* align links to right */
     gap: 1.5rem;
-    margin-right: 100px; /* moves links slightly left */
+    margin-right: 300px; /* moves links slightly left */
     position: relative;
     top: -15px; /* MOVE LINKS UP */
 }
