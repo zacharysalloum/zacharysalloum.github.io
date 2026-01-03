@@ -34,17 +34,15 @@ This project was limited by several key constraints. First, it had a total budge
 </div>
 
 <div align="center">
-  <h4><span class="subheader-underline">CAD Model</span></h4>
-</div>
-
-<div align="center">
-  <h5 class="no-underline">
-This CAD model contains all of the custom 3D printed parts used in the build, as well as the components that were bought off the shelf.
-     </h5>
-</div>
-
-<div align="center">
   <h4><span class="subheader-underline">The Build</span></h4>
+</div>
+
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="/assets/images/printerFrame.png" style="width: 200px;">
+  <div>
+    Your text goes here.  
+    This will stay aligned nicely next to the image.
+  </div>
 </div>
 
 <div align="center">
