@@ -3,7 +3,7 @@
 }
 
 #main-content * {
-  font-family: inherit;
+  font-family: inherit !important;
 }
 /* Header links (Resume, LinkedIn, etc.) */
 .header-links a {
