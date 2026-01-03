@@ -2,9 +2,14 @@
     max-width: 900px !important;  /* default is ~640–800px */
 }
 
-#main-content .inner,
-#main-content .inner * {
-  font-family: inherit !important;
+.about-row {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.about-text p {
+  margin: 0;
 }
 
 /* Header links (Resume, LinkedIn, etc.) */
