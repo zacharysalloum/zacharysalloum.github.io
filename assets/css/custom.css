@@ -62,7 +62,7 @@
 /* Header image */
 .header-image {
   position: absolute;
-  /*left: px;      /* move image left of text */
+  left: 10px;      /* move image left of text */
   top: 50%;
   transform: translateY(-35%);
         
