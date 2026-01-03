@@ -37,15 +37,19 @@ This project was limited by several key constraints. First, it had a total budge
   <h4><span class="subheader-underline">The Build</span></h4>
 </div>
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <img src="/assets/images/printerFrame.png" style="width: 300px;">
+<div style="display: flex; align-items: flex-start; gap: 20px;">
   <div>
-<p>The first step in the build was assembling the frame. 2020 and 2040 aluminum extrusions stood out as the most effective material for several reasons. First, they are affordable and readily available at a multitude of different sizes. Additionally, they are lightweight, stiff, and able to be fastened together easily. Aluminum profiles can be quickly fixed together with brackets, screws, and t-nuts. This allows for quick assembly and prototyping. It also makes the process of fastening components to the frame simple, as t-nuts can be inserted directly into the extrusions, eliminating the need to tap threads.</p>
+    <img src="/assets/images/printerFrame.png" style="width: 300px;">
+  </div>
+
+<div style="flex: 1;">
+  <h5 class="no-underline">
+The first step in the build was assembling the frame. 2020 and 2040 aluminum extrusions stood out as the most effective material for several reasons. First, they are affordable and readily available at a multitude of different sizes. Additionally, they are lightweight, stiff, and able to be fastened together easily. Aluminum profiles can be quickly fixed together with brackets, screws, and t-nuts. This allows for quick assembly and prototyping. It also makes the process of fastening components to the frame simple, as t-nuts can be inserted directly into the extrusions, eliminating the need to tap threads.</p>
+    </h5>
   </div>
 </div>
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <!-- Image on the left -->
   <div>
     <img src="/assets/images/printerFrame2.png" style="width: 300px;">
   </div>
