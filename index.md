@@ -47,9 +47,11 @@ The first step in the build was assembling the frame. 2020 and 2040 aluminum ext
 </div>
 
 <div style="display: flex; align-items: center; gap: 20px;">
-  <img src="/assets/images/printerFrame.png" style="width: 300px;">
+  <img src="/assets/images/printerFrame2.png" style="width: 300px;">
   <div>
-The first step in the build was assembling the frame. 2020 and 2040 aluminum extrusions stood out as the most effective material for several reasons. First, they are affordable and readily available at a multitude of different sizes. Additionally, they are lightweight, stiff, and able to be fastened together easily. Aluminum profiles can be quixkly fixed together with brackets, screws, and t-nuts. This allows for quick assembly and prototyping. It also makes the process of fastening components to the frame simple, as t-nuts can be inserted directly into the extrusions, eliminating the need to tap threads.
+  <p>
+After the assembly of the frame, the next step was mounting the Y and Z axis linear rods This was accomplished by fabricating custom parts that were 3D printed and mounted to the frame to secure the rods in place. Additionally, custom motor mounts were designed and mounted to attach the Y and Z axis stepper motors. Various other parts were also fabricated, including mounts for endstop sensors and the Y axis belt pulley mount.
+  </p>
   </div>
 </div>
 
