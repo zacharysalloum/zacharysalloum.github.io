@@ -115,10 +115,14 @@ Finally, 4 key electronics were selected. First, a 24V 350W power supply was cho
     <img src="/assets/images/printerComplete3.png" style="width: 300px;">
   </div>
 
-<div align="center">
-  <h3><span class="subheader-underline">Issues</span></h3>
-</div>
-
+<p>
 <div align="center">
   <h3><span class="subheader-underline">Conculsion</span></h3>
+</div>
+</p>
+
+<div align="center">
+  <h5 class="no-underline">
+This project was successful
+    </h5>
 </div>
