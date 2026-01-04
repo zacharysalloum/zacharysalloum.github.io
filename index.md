@@ -19,7 +19,7 @@ layout: default
 
 <div align="center">
   <h5 class="no-underline">
-The inspiration for this project came from the first 3D printer I owned: a Creality Ender 3. I bought that machine for $150, and it taught me much about 3D printing and additive manufacturing. However, the machine was often inconsistent. The products were not always dimensionally accurate, print quality fluctuated, and the printer could not reliably operate at speeds abouve 60mm/s. I searched to create a custom 3D printer that addresses all of these issues, and has an even larger build volume. The final product leverages the strengths of several different commerically available 3D printers, while addressing many of their design weaknesses.
+The inspiration for this project came from the first 3D printer I owned: a Creality Ender 3. I bought that machine for $150, and it taught me much about 3D printing and additive manufacturing. However, the machine was often inconsistent. The products were not always dimensionally accurate, print quality fluctuated, and the printer could not reliably operate at speeds above 60mm/s. I searched to create a custom 3D printer that addresses all of these issues, and has an even larger build volume. The final product leverages the strengths of several different commerically available 3D printers, while addressing many of their design weaknesses.
     </h5>
 </div>
 
@@ -56,7 +56,7 @@ The first step in the build was assembling the frame. 2020 and 2040 aluminum ext
   
 <div style="flex: 1;">
   <h5 class="no-underline">
-After the assembly of the frame, the next step was mounting the Y and Z axis linear rods This was accomplished by fabricating custom parts that were 3D printed and mounted to the frame to secure the rods in place. Additionally, custom motor mounts were designed and mounted to attach the Y and Z axis stepper motors. Various other parts were also fabricated, including mounts for endstop sensors and the Y axis belt pulley mount.
+After the assembly of the frame, the next step was mounting the Y and Z axis linear rods This was accomplished by fabricating custom parts that were 3D printed and mounted to the frame to secure the rods in place. Additionally, custom motor mounts were designed and mounted to attach the Y and Z axis stepper motors. The 2 Z-axis stepper motors received shaft couplers so that leadscrews can be attached, and the Y-axis motor received a belt pulley. Various other parts were also fabricated and attached during this step, including mounts for endstop sensors and the Y axis belt tensioner pulley. 
     </h5>
   </div>
 </div>
@@ -73,6 +73,30 @@ Next, the X-axis gantry was assembled. It consists of 2 linear rods that attach 
   </div>
 </div>
 
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div>
+    <img src="/assets/images/printerHotend.png" style="width: 250px;">
+  </div>
+
+<div style="flex: 1;">
+  <h5 class="no-underline">
+After the assembly of the X, Y, and Z axis movement systems, the heated bed and hot-end assemblies were then built and installed. The heated bed rests on top of an aluminum plate that clamps onto the linear rod bearings with the use of custom parts. The bed is suspended above the carriage plate by 4 springs with long screws going through them. This allows for height adjustment of the heated bed, and it is the standard design for nearly every FDM 3D printer available. The hot-end assembly consists of a 3D printed mounting plate that clamps onto the X-axis bearings. The hot-end is attached directly to the mounting plate, and a cooling fan and duct are also screwed on. The drive belt is also fixed to the rear of the mounting plate so that the entire assembly can be moved. 
+    </h5>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div>
+    <img src="/assets/images/printerExtruder.png" style="width: 250px;">
+  </div>
+
+<div style="flex: 1;">
+  <h5 class="no-underline">
+Next, the extruder assembly was made. It consists of a stepper motor, custom mounting bracket, and extruder. I used an off-the-shelf extruder due to its affordability and design complexity. A Bowden style extruder was chosen for this build, due to this printer's emphasis on printing speed. Bowden extruders push filament through a tube, into the hot-end. This allows the stepper motor and extruder to be mounted to the frame of the printer, rather than directly to the hot-end. Direct-feed extruding systems often create an effect known as "ringing" at higher print speeds, due to too much weight being placed on the hot-end. Additionally, since Bowden extruders are mounted to the frame, a bigger stepper motor can be used since weight is not a consideration. This further enables high-speed printing, as larger motors overheat less.
+    </h5>
+  </div>
+</div>
+  
 <div align="center">
   <h4><span class="subheader-underline">Issues</span></h4>
 </div>
