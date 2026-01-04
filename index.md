@@ -4,17 +4,17 @@ layout: default
 
 
 <div align="center">
-  <h3 class="no-underline">Electric Outboard Motor - University of Michigan Electric Boat Team</h3>
+  <h2 class="no-underline">Electric Outboard Motor - University of Michigan Electric Boat Team</h2>
 </div>
   
 <div align="center">
-  <h3 class="no-underline">Custom 3D Printer Build - Passion Project</h3>
+  <h2 class="no-underline">Custom 3D Printer Build</h2>
 </div>
 
 <img src="/assets/images/printerCad.png" alt="Screenshot of 3D Printer CAD" class="center-image">
 
 <div align="center">
-  <h4><span class="subheader-underline">Overview</span></h4>
+  <h3><span class="subheader-underline">Overview</span></h3>
 </div>
 
 <div align="center">
@@ -24,7 +24,7 @@ The inspiration for this project came from the first 3D printer I owned: a Creal
 </div>
 
 <div align="center">
-  <h4><span class="subheader-underline">Constraints</span></h4>
+  <h3><span class="subheader-underline">Constraints</span></h3>
 </div>
 
 <div align="center">
@@ -34,7 +34,7 @@ This project was limited by several key constraints. First, it had a total budge
 </div>
 
 <div align="center">
-  <h4><span class="subheader-underline">The Build</span></h4>
+  <h3><span class="subheader-underline">The Build</span></h3>
 </div>
 
 <div style="display: flex; align-items: center; gap: 20px;">
@@ -116,9 +116,9 @@ Finally, 4 key electronics were selected. First, a 24V 350W power supply was cho
   </div>
 
 <div align="center">
-  <h4><span class="subheader-underline">Issues</span></h4>
+  <h3><span class="subheader-underline">Issues</span></h3>
 </div>
 
 <div align="center">
-  <h4><span class="subheader-underline">Conculsion</span></h4>
+  <h3><span class="subheader-underline">Conculsion</span></h3>
 </div>
