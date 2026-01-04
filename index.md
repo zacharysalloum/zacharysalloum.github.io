@@ -11,7 +11,7 @@ layout: default
   <h2 class="no-underline">Custom 3D Printer Build</h2>
 </div>
 
-<img src="/assets/images/printerCad.png" alt="Screenshot of 3D Printer CAD" class="center-image">
+<img src="/assets/images/frontView2.jpeg" alt="Screenshot of 3D Printer CAD" class="center-image">
 
 <div align="center">
   <h3><span class="subheader-underline">Overview</span></h3>
@@ -110,8 +110,8 @@ Finally, 4 key electronics were selected. First, a 24V 350W power supply was cho
 </div>
 
 <div style="display: flex; justify-content: center;  align-items: center; gap: 20px; flex-wrap: nowrap;">
-    <img src="/assets/images/printerComplete2.png" style="width: 300px;">
-    <img src="/assets/images/printerComplete3.png" style="width: 300px;">
+    <img src="/assets/images/printerComplete2.png" style="width: 400px;">
+    <img src="/assets/images/printerComplete3.png" style="width: 400px;">
   </div>
 
 <p>
