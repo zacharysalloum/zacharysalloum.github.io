@@ -109,7 +109,7 @@ Finally, 4 key electronics were selected. First, a 24V 350W power supply was cho
   </div>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+<div style="display: flex; justify-content: center;  align-items: center; gap: 20px;">
   <div>
     <img src="/assets/images/printerComplete2.png" style="width: 400px;">
     <img src="/assets/images/printerComplete3.png" style="width: 400px;">
