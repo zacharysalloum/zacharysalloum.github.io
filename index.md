@@ -92,7 +92,19 @@ After the assembly of the X, Y, and Z axis movement systems, the heated bed and 
 
 <div style="flex: 1;">
   <h5 class="no-underline">
-Next, the extruder assembly was made. It consists of a stepper motor, custom mounting bracket, and extruder. I used an off-the-shelf extruder due to its affordability and design complexity. A Bowden style extruder was chosen for this build, due to this printer's emphasis on printing speed. Bowden extruders push filament through a tube, into the hot-end. This allows the stepper motor and extruder to be mounted to the frame of the printer, rather than directly to the hot-end. Direct-feed extruding systems often create an effect known as "ringing" at higher print speeds, due to too much weight being placed on the hot-end. Additionally, since Bowden extruders are mounted to the frame, a bigger stepper motor can be used since weight is not a consideration. This further enables high-speed printing, as larger motors overheat less.
+Next, the extruder assembly was made. It consists of a stepper motor, custom mounting bracket, and extruder. I used an off-the-shelf extruder due to its affordability and design complexity. A Bowden style extruder was chosen for this build, due to this printer's emphasis on printing speed. Bowden extruders push filament through a tube, into the hot-end. This allows the stepper motor and extruder to be mounted to the frame of the printer, rather than directly to the hot-end. Direct-feed extruding systems often create an effect known as "ringing" at higher print speeds, due to too much weight being placed on the hot-end. Additionally, since weight is not a consideration, a bigger stepper motor can be used. This further enables high-speed printing, as larger motors overheat less.
+    </h5>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div>
+    <img src="/assets/images/printerElectronics.png" style="width: 250px;">
+  </div>
+
+<div style="flex: 1;">
+  <h5 class="no-underline">
+Finally, the electronics were installed. There were 4 key components selected. First, a 24V 350W power supply was chosen to power the printer. I wired a 3-prong plug and power switch to it, so that it could be turned on. Then, a BigTreeTech SKR Mini E3 was chosen to be this printer's mainboard. This mainboard is extremely affordable at around $40, and it allows all of the stepper motors and sensors to be plugged in and controlled. It also a very robust option, with a 32-bit processor (many boards are 8-bit), silent TMC2209 motor drivers, and a multitude of fan ports. It also meshes well with the BTT TFT35 LCD screen, which I chose to be the screen for this printer due to its affordability, clean UI, and touchscreen function. Finally, I chose a 25A mosfet to control the heated bed, as the main-board's built in mosfet was not adequate. Custom enclosures were designed and 3D printed to hold all of these parts, as well as cooling fans where necessary.
     </h5>
   </div>
 </div>
