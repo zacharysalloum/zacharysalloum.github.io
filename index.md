@@ -27,7 +27,7 @@ layout: default
 
 <div align="center">
   <h5 class="no-underline">
-The inspiration for this project came from the first 3D printer I owned: a Creality Ender 3. I bought that machine for $150, and it taught me much about 3D printing and additive manufacturing. However, the machine was often inconsistent. The products were not always dimensionally accurate, print quality fluctuated, and the printer could not reliably operate at speeds above 60mm/s. I searched to create a custom 3D printer that addresses all of these issues, and has an even larger build volume. The final product leverages the strengths of several different commerically available 3D printers, while addressing many of their design weaknesses.
+The inspiration for this project came from the first 3D printer I owned: a Creality Ender 3. I bought that machine for $150, and it taught me much about 3D printing and additive manufacturing. However, the machine was often inconsistent. The finished prints were not always dimensionally accurate, and the printer could not reliably operate at speeds above 60mm/s. I searched to create a custom 3D printer that addresses all these issues, and also offers a larger build volume. My initial designs took inspiration from several popular models of 3D printers, including the Creality CR-10 and Prusa i3 MK3s. I looked to replicate the CR-10's massive build volume, while retaining the excellent print quality of the Prusa i3. To do this, I borrowed strengths from each machine's design, while engineering new solutions to their weaknesses.
     </h5>
 </div>
 
