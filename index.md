@@ -6,6 +6,14 @@ layout: default
 <div align="center">
   <h2 class="no-underline">Electric Outboard Motor - University of Michigan Electric Boat Team</h2>
 </div>
+
+<div align="center">
+  <h3><span class="subheader-underline">Overview</span></h3>
+</div>
+
+<div align="center">
+  <h3><span class="subheader-underline">Constraints</span></h3>
+</div>
   
 <div align="center">
   <h2 class="no-underline">Custom 3D Printer Build</h2>
