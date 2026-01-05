@@ -34,7 +34,7 @@
     margin-top: 0.6rem;
     font-size: 1.1rem;
     position: relative;
-    left: 250px; /* moves description right */
+    left: 350px; /* moves description right */
     margin-bottom: 0 !important;
 }
 
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: flex-end; /* align links to right */
     gap: 1.5rem;
-    margin-right: 300px; /* moves links slightly left */
+    margin-right: 200px; /* moves links slightly left */
     position: relative;
     top: -15px; /* MOVE LINKS UP */
 }
@@ -63,7 +63,7 @@
   justify-content: flex-end; /* <-- key line */
   gap: 15px;
   position: relative;
-  padding-right: 300px; /* space from right edge */
+  padding-right: 200px; /* space from right edge */
 }
 
 /* Header image */
