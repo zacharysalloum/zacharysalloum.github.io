@@ -10,6 +10,12 @@ layout: default
 <img src="/assets/images/outboardCad.png" alt="Screenshot outboard motor CAD" class="center-image">
 
 <div align="center">
+  <h5 class="no-underline">
+This project is currently ongoing, and a part of the University of Michigan Electric Boat Team's 2025/26 competition boat.
+    </h5>
+</div>
+
+<div align="center">
   <h3><span class="subheader-underline">Overview</span></h3>
 </div>
 
