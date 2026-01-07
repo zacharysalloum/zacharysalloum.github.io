@@ -7,7 +7,7 @@ layout: default
   <h2 class="no-underline">Electric Outboard Motor - University of Michigan Electric Boat Team</h2>
 </div>
 
-<img src="/assets/images/outboardCad" alt="Screenshot outboard motor CAD" class="center-image">
+<img src="/assets/images/outboardCad.png" alt="Screenshot outboard motor CAD" class="center-image">
 
 <div align="center">
   <h3><span class="subheader-underline">Overview</span></h3>
