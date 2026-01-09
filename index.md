@@ -10,18 +10,20 @@ layout: default
 <img src="/assets/images/outboardCad.png" alt="Screenshot outboard motor CAD" class="center-image">
 
 <div align="center">
-  <h5 class="no-underline">
-This project is currently ongoing, and a part of the University of Michigan Electric Boat Team's 2025/26 competition boat.
-    </h5>
+  <h3><span class="subheader-underline">Overview</span></h3>
 </div>
 
 <div align="center">
-  <h3><span class="subheader-underline">Overview</span></h3>
+  <h5 class="no-underline">
+This project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition, hosted by the American Society of Naval Engineers (ASNE) in Pourtsmouth, VA. This coming April, our team will compete in the crewed, planing hull division, which is a 5 mile race geared towards top-end speed (there are only 9 turns in the course). The competition has very restricting rules regarding what boats are allowed to compete. This impacted our design greatly, placing a large emphasis on efficiency and weight-redudction. I worked on the outboard motor sub-team, and we were responsible for creating a fully electric outboard motor with a continuous power output of atleast 40 horsepower and an operating voltage under 55V per the competition rules. This voltage regulation was extremely limiting, and it greatly shaped our motor design. 
+    </h5>
 </div>
 
 <div align="center">
   <h3><span class="subheader-underline">Constraints</span></h3>
 </div>
+
+
   
 <div align="center">
   <h2 class="no-underline">Custom 3D Printer Build</h2>
