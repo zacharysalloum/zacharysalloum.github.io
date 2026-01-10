@@ -87,6 +87,24 @@
   margin-bottom: 25px;
 }
 
+#header_wrap .inner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+#project_title,
+#project_tagline,
+#header_wrap .header-links {
+  margin-left: 160px; /* distance from profile image */
+}
+
+@media (max-width: 768px) {
+  .header-image {
+    height: 80px;
+  }
+}
+
 .header-image {
   position: absolute;
   left: 100px;
