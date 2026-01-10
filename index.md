@@ -23,8 +23,12 @@ This project is a part of the University of Michigan Electric Boat Team's 2025/2
   <h3><span class="subheader-underline">Constraints</span></h3>
 </div>
 
+<div align="center">
+  <h5 class="no-underline">
 There were two key constraints limiting the design of the outboard motor and the boat as a whole. Per the competition rules, our boat's battery had to have a voltage at or below 55.5V and a capacity at or below 500Ah. Our team also imposed additional constraints, as we aimed to create the fastest boat possible. For the outboard, we were to make a unit capable of outputting atleast 40 horsepower continuous. This goal, combined with the voltage limit, made it very difficulty to select an electric motor to power our outboard. At such a low voltage we were not able to find motors capable of producing the power necessary. This resulted in us choosing three smaller motors and linking them through a custom gearbox. The gearbox was another major design challenge, as we had to design it completely from scratch while taking into consideration weight and reliability.
-  
+    </h5>
+</div>
+
 <div align="center">
   <h2 class="no-underline">Custom 3D Printer Build</h2>
 </div>
