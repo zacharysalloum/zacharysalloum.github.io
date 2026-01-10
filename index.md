@@ -9,11 +9,8 @@
 
   <h3 class="section-title">
     <span class="subheader-underline">Overview</span>
+This project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition, an electric boat race hosted by the American Society of Naval Engineers (ASNE) in Pourtsmouth, VA. This coming April, our team will compete in the crewed, planing hull division, which is a 5 mile race geared towards top-end speed (there are only 9 turns in the course). The competition enforces strict rules regarding what boats are allowed to compete. This impacted our design greatly, and caused us to place a large emphasis on efficiency and weight-redudction. I worked on the outboard motor sub-team, and we were responsible for creating a fully electric outboard motor with a continuous power output of atleast 40 horsepower and an operating voltage under 55V per the competition rules. This voltage regulation was extremely limiting, and it greatly shaped our motor design.
   </h3>
-
-  <p class="about-text">
-    This project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition, an electric boat race hosted by the American Society of Naval Engineers (ASNE) in Pourtsmouth, VA. This coming April, our team will compete in the crewed, planing hull division, which is a 5 mile race geared towards top-end speed (there are only 9 turns in the course). The competition enforces strict rules regarding what boats are allowed to compete. This impacted our design greatly, and caused us to place a large emphasis on efficiency and weight-redudction. I worked on the outboard motor sub-team, and we were responsible for creating a fully electric outboard motor with a continuous power output of atleast 40 horsepower and an operating voltage under 55V per the competition rules. This voltage regulation was extremely limiting, and it greatly shaped our motor design.
-  </p>
 
   <h3 class="section-title">
     <span class="subheader-underline">Constraints</span>
