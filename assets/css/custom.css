@@ -95,4 +95,9 @@
   height: 175px;
   width: auto;
   border-radius: 50%;
+
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: none;
 }
