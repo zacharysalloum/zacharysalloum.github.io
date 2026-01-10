@@ -155,11 +155,9 @@ Finally, 4 key electronics were selected. First, a 24V 350W power supply was cho
     <img src="/assets/images/mosfet.jpeg" style="width: 400px;">
   </div>
   
-<p>
 <div align="center">
   <h3><span class="subheader-underline">Conculsion</span></h3>
 </div>
-</p>
 
 <div align="center">
   <h5 class="no-underline">
