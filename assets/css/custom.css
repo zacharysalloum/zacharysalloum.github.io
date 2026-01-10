@@ -109,3 +109,6 @@
     height: auto;
 }
 
+.section {
+  margin-bottom: 60px; /* space between sections */
+}
