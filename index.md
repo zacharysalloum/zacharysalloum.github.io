@@ -15,7 +15,7 @@ layout: default
 
 <div align="center">
   <h5 class="no-underline">
-This project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition, hosted by the American Society of Naval Engineers (ASNE) in Pourtsmouth, VA. This coming April, our team will compete in the crewed, planing hull division, which is a 5 mile race geared towards top-end speed (there are only 9 turns in the course). The competition has very restricting rules regarding what boats are allowed to compete. This impacted our design greatly, placing a large emphasis on efficiency and weight-redudction. I worked on the outboard motor sub-team, and we were responsible for creating a fully electric outboard motor with a continuous power output of atleast 40 horsepower and an operating voltage under 55V per the competition rules. This voltage regulation was extremely limiting, and it greatly shaped our motor design. 
+This project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition, an electric boat race hosted by the American Society of Naval Engineers (ASNE) in Pourtsmouth, VA. This coming April, our team will compete in the crewed, planing hull division, which is a 5 mile race geared towards top-end speed (there are only 9 turns in the course). The competition enforces strict rules regarding what boats are allowed to compete. This impacted our design greatly, and caused us to place a large emphasis on efficiency and weight-redudction. I worked on the outboard motor sub-team, and we were responsible for creating a fully electric outboard motor with a continuous power output of atleast 40 horsepower and an operating voltage under 55V per the competition rules. This voltage regulation was extremely limiting, and it greatly shaped our motor design. 
     </h5>
 </div>
 
@@ -23,7 +23,7 @@ This project is a part of the University of Michigan Electric Boat Team's 2025/2
   <h3><span class="subheader-underline">Constraints</span></h3>
 </div>
 
-
+There were two key constraints limiting the design of the outboard motor and the boat as a whole. Per the competition rules, our boat's battery had to have a voltage at or below 55.5V and a capacity at or below 500Ah. Our team also imposed additional constraints, as we aimed to create the fastest boat possible. For the outboard, we were to make a unit capable of outputting atleast 40 horsepower continuous. This goal, combined with the voltage limit, made it very difficulty to select an electric motor to power our outboard. At such a low voltage we were not able to find motors capable of producing the power necessary. This resulted in us choosing three smaller motors and linking them through a custom gearbox. The gearbox was another major design challenge, as we had to design it completely from scratch while taking into consideration weight and reliability.
   
 <div align="center">
   <h2 class="no-underline">Custom 3D Printer Build</h2>
