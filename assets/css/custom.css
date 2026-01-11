@@ -6,7 +6,7 @@
 #main-content p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                Helvetica, Arial, sans-serif !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
 }
 
 /* Typography */
@@ -143,13 +143,10 @@
 /* Header links */
 #header_wrap .header-links a {
   color: white !important;
+   text-decoration: underline !important; /* optional */
 }
 
 #header_wrap .header-links a:visited {
   color: white !important;
 }
 
-#header_wrap .header-links a:hover {
-  color: white !important;
-  text-decoration: underline !important; /* optional */
-}
