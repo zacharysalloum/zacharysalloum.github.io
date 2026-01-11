@@ -70,5 +70,48 @@ After the assembly of the frame, the next step was mounting the Y and Z axis lin
   </h5>
 </div>
 
+  <div class="about-row">
+    <img src="/assets/images/frameComplete.png" alt="Printer frame assembly">
 
+  <h5 class="about-text">    
+Next, the X-axis gantry was assembled. It consists of 2 linear rods that attach to a custom 3D printed piece on each end. Those plastic pieces also contain bearings and leadscrew nuts, allowing the entire X-axis to be moved vertically. A stepper motor is mounted to the plastic bracket on the left, and the belt pulley is fixed to the bracket on the right. Another 3D printed piece is attached to the bearings on the X-axis linear rods. This will serve as the mount for the hot-end and part cooling fan. 
+  </h5>
+</div>
+
+<div class="about-row">
+  <img src="/assets/images/printerHotend.png" alt="Printer frame assembly">
+
+  <h5 class="about-text">    
+After the assembly of the X, Y, and Z axis movement systems, the heated bed and hot-end assemblies were then built and installed. The heated bed rests on top of an aluminum plate that clamps onto the linear rod bearings with the use of custom parts. The bed is suspended above the carriage plate by 4 springs with long screws going through them. This allows for height adjustment of the heated bed, and it is the standard design for nearly every FDM 3D printer available. The hot-end assembly consists of a 3D printed mounting plate that clamps onto the X-axis bearings. The hot-end is attached directly to the mounting plate, and a cooling fan and duct are also screwed on. The drive belt is also fixed to the rear of the mounting plate so that the entire assembly can be moved. 
+  </h5>
+</div>
+
+<div class="about-row">
+  <img src="/assets/images/printerExtruder.png" alt="Printer frame assembly">
+
+  <h5 class="about-text">    
+Next, the extruder assembly was made. It consists of a stepper motor, custom mounting bracket, and extruder. I used an off-the-shelf extruder due to its affordability and design complexity. A Bowden style extruder was chosen for this build, due to this printer's emphasis on printing speed. Bowden extruders push filament through a tube, into the hot-end. This allows the stepper motor and extruder to be mounted to the frame of the printer, rather than directly to the hot-end. Direct-feed extruding systems often create an effect known as "ringing" at higher print speeds, due to too much weight being placed on the hot-end. Additionally, since weight is not a consideration, a bigger stepper motor can be used. This further enables high-speed printing, as larger motors overheat less.
+  </h5>
+</div>
+
+<div class="about-row">
+  <img src="/assets/images/printerElectronics.png" alt="Printer frame assembly">
+
+  <h5 class="about-text">    
+Finally, 4 key electronics were selected. First, a 24V 350W power supply was chosen to power the printer. Then, a BigTreeTech SKR Mini E3 was chosen to be this printer's mainboard. This mainboard is extremely affordable at around $40, and it allows all of the stepper motors and sensors to be plugged in and controlled. It's also a very robust option, with a 32-bit processor, silent TMC2209 motor drivers, and a multitude of fan ports. It also meshes well with the BTT TFT35 LCD screen, which I chose to be the screen for this printer due to its affordability, clean UI, and touchscreen function. Finally, I chose a 25A mosfet to control the heated bed, as the main-board's built-in mosfet was not adequate. Custom enclosures were designed and 3D printed to hold all of these parts, as well as cooling fans where necessary.
+  </h5>
+</div>
+
+  <h3 class="section-title">
+    <span class="subheader-underline">Conclusion</span>
+  </h3>
+
+<h5 class="about-text">    
+This project was very successful. The finished printer achieved almost all of the goals I had in mind. It was able to print roughly 20mm/s faster than my Creality Ender-3 while retaining the same print quality. However, speed was not ultimately this printer's greatest strength, due to the large print surface. While the X-axis was set up to be light weight, the sliding bed assembly was relatively heavy. Moving it at overly high speeds resulted in the stepper motor overheating and worsened print quality. A major success of this printer was its large build volume of 280mm x 280mm x 300mm, compared to the Ender 3's build volume of 220mm x 220mm x 250mm. Additionally, the machine offers excellent dimensional accuracy due to the linear rod bearing system. While many cheaper 3D printers use v-slot wheels that slide along the aluminum extrusions, my machine utilized linear rods and bearings. This system is superior as it offers less rolling resistance and better reliability (plastic v-slot wheels often wear out easily). The result was dimensional accuracy of around +/- 0.1mm in all of my tests, which was the greatest success of this project. Another unintended perk of this 3D printer is its capacity for high temperature printing. While many 3D printers are typically rated up to 240 degree Celcius, this one has an all-metal hot-end, and can achieve temperatures up to 300 Celcius. This enables it to print a multitude of different filaments. Finally, I am proud of the machine's form factor and usability. The frame of the machine was extremely stiff and lightweight, and it is extremely easy to mount accessories to it in the future. The heated bed is magnetic, allowing build surfaces to be quickly swapped. Additionally, the LCD touchscreen I added makes using the machine very straightforward and easy.
+</h5>
+
+<h5 class="about-text">    
+Overall, this project was very enjoyable and informative. I learned much about how FDM 3D printers work, and how to design them in order to meet certain criteria. The result was not perfect but it was an improvement in many ways compared to my first 3D printer. Additionally, at around $600, I spent less than I had budgeted. In this project, I also increased my CAD skills, as I modeled many different custom parts in Onshape and Fusion 360. I then created a full assembly of the machine in CAD, in order to ensure everything would fit together properly.
+</h5>
+  
 </div>
