@@ -1,6 +1,5 @@
-/* Page width */
-#main-content .inner {
-  max-width: 900px;
+.inner {
+  max-width: 1000px; /* or 1100px if you want default Slate */
   margin: 0 auto;
 }
 
