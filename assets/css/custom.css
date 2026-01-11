@@ -124,9 +124,10 @@
   .header-image {
     height: 175px;
   }
-  .section-title {
-  font-size: 3rem;
-  }
+#project_title {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
 }
 
 @media (max-width: 768px) {
