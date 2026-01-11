@@ -1,5 +1,5 @@
 /* Page width */
-.inner {
+#main-content .inner {
   max-width: 900px;
   margin: 0 auto;
 }
