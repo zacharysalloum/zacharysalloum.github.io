@@ -122,7 +122,10 @@
   }
 
   .header-image {
-    height: 150px;
+    height: 175px;
+  }
+  .section-title {
+  font-size: 3rem;
   }
 }
 
