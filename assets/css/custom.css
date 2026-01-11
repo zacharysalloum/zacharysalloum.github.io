@@ -156,6 +156,7 @@
 #project_tagline {
     font-size: 1.3rem;
     margin-bottom: 0 !important;
+  max-width: 350px;
 }
 
 #project_title {
