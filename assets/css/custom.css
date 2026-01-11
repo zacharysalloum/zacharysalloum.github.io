@@ -121,11 +121,10 @@
     flex-direction: column;
     text-align: center;
   }
-
   .header-image {
     height: 175px;
   }
-#project_title {
+  #project_title {
     font-size: 2rem;
     margin-top: 0.5rem;
   }
@@ -163,7 +162,7 @@
 #project_tagline {
     font-size: 1.3rem;
     margin-bottom: 0 !important;
-    max-width: 300px;
+    max-width: 600px;
 }
 
 #project_title {
