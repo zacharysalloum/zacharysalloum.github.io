@@ -149,7 +149,7 @@
 #header_wrap .header-links a {
   color: white !important;
   text-decoration: underline !important; /* optional */
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: center;
   margin-right: 1.5rem;
 
@@ -160,7 +160,7 @@
 }
 
 #project_tagline {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 0 !important;
     max-width: 500px;
 }
