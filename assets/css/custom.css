@@ -150,7 +150,7 @@
   color: white !important;
   text-decoration: underline !important; /* optional */
   font-size: 1.3rem;
-  text-align: center;
+  align-items: center;
   margin-right: 1.5rem;
 
 }
