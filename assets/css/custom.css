@@ -127,7 +127,8 @@ body {
 
 @media (max-width: 768px) {
   .about-row {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column !important;
     align-items: center;
     text-align: center;
   }
@@ -135,6 +136,6 @@ body {
   .about-row img {
     width: 100%;
     max-width: 320px;
+    margin-bottom: 16px;
   }
 }
-
