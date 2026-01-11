@@ -140,3 +140,17 @@
     margin-bottom: 16px;
   }
 }
+
+/* Header links */
+#header_wrap .header-links a {
+  color: white;
+}
+
+#header_wrap .header-links a:visited {
+  color: white;
+}
+
+#header_wrap .header-links a:hover {
+  color: white;
+  text-decoration: underline; /* optional */
+}
