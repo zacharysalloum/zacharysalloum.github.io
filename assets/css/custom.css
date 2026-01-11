@@ -100,6 +100,7 @@
   outline: none;
   background: none;
 }
+
 /* Text block */
 .header-text {
   display: flex;
@@ -127,7 +128,7 @@
 #project_title {
     font-size: 2rem;
     margin-top: 0.5rem;
-}
+  }
 }
 
 @media (max-width: 768px) {
@@ -148,10 +149,10 @@
 /* Header links */
 #header_wrap .header-links a {
   color: white !important;
-   text-decoration: underline !important; /* optional */
+  text-decoration: underline !important; /* optional */
   font-size: 1.2rem;
-     text-align: center;
-  margin-right: 1.5rem
+  text-align: center;
+  margin-right: 1.5rem;
 
 }
 
@@ -162,6 +163,7 @@
 #project_tagline {
     font-size: 1.3rem;
     margin-bottom: 0 !important;
+    max-width: 300px;
 }
 
 #project_title {
