@@ -4,10 +4,13 @@
   margin: 0 auto;
 }
 
-/* Typography */
-.about-text {
+body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                Helvetica, Arial, sans-serif;
+}
+
+/* Typography */
+.about-text {
   font-size: 16px;
   line-height: 1.6;
   margin: 0;
