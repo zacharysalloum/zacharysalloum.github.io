@@ -3,13 +3,9 @@
     Electric Outboard Motor – University of Michigan Electric Boat Team
   </h2>
 
-  <img src="/assets/images/outboardCad.png"
-       alt="Outboard motor CAD"
-       class="center-image">
-
 <div class="image-pair">
-    <img src="/assets/images/outboardCad.png" style="width: 500px;">
-    <img src="/assets/images/outboardExploded.png" style="width: 500px;">
+    <img src="/assets/images/outboardCad.png" style="width: 450px;">
+    <img src="/assets/images/outboardExploded.png" style="width: 450px;">
   </div>
 
   <h3 class="section-title">
