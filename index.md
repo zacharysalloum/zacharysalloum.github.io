@@ -8,8 +8,8 @@
        class="center-image">
 
 <div class="image-pair">
-    <img src="/assets/images/outboardCad.png" style="width: 400px;">
-    <img src="/assets/images/outboardExploded.png" style="width: 400px;">
+    <img src="/assets/images/outboardCad.png" style="width: 500px;">
+    <img src="/assets/images/outboardExploded.png" style="width: 500px;">
   </div>
 
   <h3 class="section-title">
