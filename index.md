@@ -4,8 +4,8 @@
   </h2>
 
 <div class="image-pair">
-    <img src="/assets/images/outboardCad.png" style="width: 450px;">
-    <img src="/assets/images/outboardExploded.png" style="width: 450px;">
+    <img src="/assets/images/outboardCad.png" style="width: 400px;">
+    <img src="/assets/images/outboardExploded.png" style="width: 400px;">
   </div>
 
   <h3 class="section-title">
@@ -21,9 +21,11 @@ This ongoing project is a part of the University of Michigan Electric Boat Team'
   </h3>
 
 <p class="about-text">     
-    There were two key constraints limiting the design of the outboard motor and the boat as a whole. Per the competition rules, our boat's battery had to have a voltage at or below 55.5V and a capacity at or below 500Ah. Our team also imposed additional constraints, as we aimed to create the fastest boat possible. For the outboard, we were to make a unit capable of outputting atleast 40 horsepower continuous. This goal, combined with the voltage limit, made it very difficulty to select an electric motor to power our outboard. At such a low voltage we were not able to find motors capable of producing the power necessary. This resulted in us choosing three smaller motors and linking them through a custom gearbox. The gearbox was another major design challenge, as we had to design it completely from scratch while taking into consideration weight and reliability.
+There were two key constraints limiting the design of the outboard motor and the boat as a whole. Per the competition rules, our boat's battery had to have a voltage at or below 55.5V and a capacity at or below 500Ah. Our team also imposed additional constraints, as we aimed to create the fastest boat possible. For the outboard, we were to make a unit capable of outputting atleast 40 horsepower continuous. This goal, combined with the voltage limit, made it very difficulty to select an electric motor to power our outboard. At such a low voltage we were not able to find motors capable of producing the power necessary. This resulted in us choosing three smaller motors and linking them through a custom gearbox. The gearbox was another major design challenge, as we had to design it completely from scratch while taking into consideration weight and reliability.
   </p>
 </div>
+
+
 
 
 <div class="section">
