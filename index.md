@@ -13,7 +13,7 @@
       </h3>
 
 <p class="about-text">     
-This ongoing project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition, an electric boat race hosted by the American Society of Naval Engineers (ASNE) in Pourtsmouth, VA. This coming April, our team will compete in the crewed, planing hull division, which is a 5 mile race geared towards top-end speed (there are only 9 turns in the course). The competition enforces strict rules regarding what boats are allowed to compete. This impacted our design greatly, and caused us to place a large emphasis on efficiency and weight-redudction. I worked on the outboard motor sub-team, and we were responsible for creating a fully electric outboard motor with a continuous power output of at least 40 horsepower and an operating voltage under 55V per the competition rules. This voltage regulation was extremely limiting, and it greatly shaped our motor design.
+This ongoing project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition, an electric boat race hosted by the American Society of Naval Engineers (ASNE) in Pourtsmouth, VA. This coming April, our team will compete in the crewed, planing hull division, which is a 5 mile race geared towards top-end speed (there are only 9 turns in the course). The competition enforces strict rules regarding what boats are allowed to compete. This impacted our design greatly, and caused us to place a large emphasis on efficiency and weight-reduction. Our team decided to utilize a D-Stock hull, which is light-weight and optimized for similar circle-track events. I worked on the outboard motor sub-team, and we were responsible for creating a fully electric outboard motor with a continuous power output of at least 40 horsepower and an operating voltage under 55V per the competition rules. This voltage regulation was extremely limiting, and it greatly shaped our motor design.
   </p>
 
   <h3 class="section-title">
@@ -25,6 +25,42 @@ There were two key constraints limiting the design of the outboard motor and the
   </p>
 </div>
 
+
+<h3 class="section-title">
+    <span class="subheader-underline">The Build</span>
+  </h3>
+
+<div class="about-row">
+  <img src="/assets/images/motor.png" alt="motor">
+
+<p class="about-text">    
+The first part of the outboard motor build was selecting appropriate electric motors. Due to the 55.5V voltage limit, our team decided to build a 48V battery and pair it with 3 LMT 7065 electric motors. With 30kW peak output, we determined that 3 motors in tandem would allow us to meet our goal of 50 horsepower, and that this value will be limited mostly due to cooling, battery capacity, and inverter selection. 
+  </p>
+</div>
+
+<div class="about-row">
+  <img src="/assets/images/gearbox bottom.jpeg" alt="gearbox">
+
+<p class="about-text">    
+After speccing the motors, the next task was to create a gearbox that links the three motors to one output shaft. We first chose our desired shaft RPM by looking at the propellors used in boats of a similar class. We then ran calculations to determine the minimum gear face width required at our output power. From there we determined the optimal gear pitch while also accounting for the positioning of the motors in the limited space of the powerhead. We held a design review with our industry partner Weismann Transmissions to get feedback and answer certain questions on tolerances and shaft seals.
+  </p>
+</div>
+
+<div class="about-row">
+  <img src="/assets/images/gearbox assembled.jpeg" alt="gearbox">
+
+<p class="about-text">    
+Once we finalized our gearbox design and ran FEA simulations on the predicted load, our team entered the assembly phase. The gearbox was machined on a 5-axis mill. Once that was machined, we created the shafts by cutting round stock to length and adding key slots into it on the mill. We also broached the gears we purchased and press-fit the bearings into the housing. The motor and encoder plates were also fabricated on the water jet, and a mount for the 3 motor inverters was designed and 3D printed.
+  </p>
+</div>
+
+<div class="about-row">
+  <img src="/assets/images/outboard1.jpeg" alt="gearbox">
+
+<p class="about-text">    
+After final assembly of the gearbox, we then mounted the gearbox, motors, and inverters to a midsection and lower unit that we purchased. This comprised the entire outboard assembly, which was bolted to the D-Stock hull. We then worked with the High Voltage sub-team to test the powertrain.
+  </p>
+</div>
 
 
 
@@ -130,7 +166,9 @@ Finally, 4 key electronics were selected. First, a 24V 350W power supply was cho
   </h3>
 
 <p class="about-text">    
-Overall, this project was very successful. I learned much about how FDM 3D printers work, and how to design them in order to meet certain criteria. The finished printer, while not perfect, achieved many of the goals I had in mind, and performed significantly better than my Creality Ender 3. And, at around $600, I spent less on this project than I had budgeted. Ultimately, the machine I built was able to print roughly 20mm/s faster than my Creality Ender-3 while retaining the same print quality. However, speed was not ultimately this printer's greatest strength, due to the large print surface. While the X-axis was set up to be light weight, the sliding bed assembly was relatively heavy. Moving it at overly high speeds resulted in the stepper motors overheating, which produces worsened print quality. This demonstrates the fundamental trade-off between speed and build capacity on printers with moving beds: as the size of the build surface increases, the harder it is to move quickly and accurately. That said, this machine's build volume was very satisfactory: 280mm x 280mm x 300mm, compared to the Ender 3's build volume of 220mm x 220mm x 250mm. Additionally, the machine offers excellent dimensional accuracy due to the linear rod bearing system. While many cheaper 3D printers use v-slot wheels that slide along the aluminum extrusions, my machine utilized linear rods and bearings. This system is superior as it offers less rolling resistance and more precise movement. This style of bearing also wears out less over time. The result was dimensional accuracy of around +/- 0.1mm in all of my tests, which was the greatest success of this project. Another strength of this 3D printer is its capacity for high temperature printing. While many 3D printers are typically rated up to 240 degree Celcius, this one has an all-metal hot-end from E3D, and can achieve temperatures up to 300 Celcius. This enables it to print a multitude of different filaments. Finally, I am proud of the machine's form factor and usability. The frame of the machine was extremely stiff and lightweight, and it is very easy to build onto to it in the future. The heated bed is magnetic, allowing build surfaces to be quickly swapped, and the LCD touchscreen I installed makes using the machine very straightforward and easy. The final result was a versatile printer that produces quality results and is as easy to use as most other 3D printers on the market.
+Overall, this project was very successful. I learned much about how FDM 3D printers work, and how to design them in order to meet certain criteria. The finished printer, while not perfect, achieved many of the goals I had in mind, and performed significantly better than my Creality Ender 3. And, at around $600, I spent less on this project than I had budgeted. Ultimately, the machine I built was able to print roughly 20mm/s faster than my Creality Ender-3 while retaining the same print quality. However, speed was not ultimately this printer's greatest strength, due to the large print surface. While the X-axis was set up to be light weight, the sliding bed assembly was relatively heavy. Moving it at overly high speeds resulted in the stepper motors overheating, which produces worsened print quality. This demonstrates the fundamental trade-off between speed and build capacity on printers with moving beds: as the size of the build surface increases, the harder it is to move quickly and accurately. That said, this machine's build volume was very satisfactory: 280mm x 280mm x 300mm, compared to the Ender 3's build volume of 220mm x 220mm x 250mm. 
+  
+  Additionally, the machine offers excellent dimensional accuracy due to the linear rod bearing system. While many cheaper 3D printers use v-slot wheels that slide along the aluminum extrusions, my machine utilized linear rods and bearings. This system is superior as it offers less rolling resistance and more precise movement. This style of bearing also wears out less over time. The result was dimensional accuracy of around +/- 0.1mm in all of my tests, which was the greatest success of this project. Another strength of this 3D printer is its capacity for high temperature printing. While many 3D printers are typically rated up to 240 degree Celcius, this one has an all-metal hot-end from E3D, and can achieve temperatures up to 300 Celcius. This enables it to print a multitude of different filaments. Finally, I am proud of the machine's form factor and usability. The frame of the machine was extremely stiff and lightweight, and it is very easy to build onto to it in the future. The heated bed is magnetic, allowing build surfaces to be quickly swapped, and the LCD touchscreen I installed makes using the machine very straightforward and easy. The final result was a versatile printer that produces quality results and is as easy to use as most other 3D printers on the market.
 </p>
   
 </div>
