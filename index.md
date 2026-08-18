@@ -4,8 +4,8 @@
   </h2>
 
 <div class="image-pair">
-    <img src="/assets/images/outboardCad.png" style="width: 375px;">
-    <img src="/assets/images/outboardExploded.png" style="width: 375px;">
+    <img src="/assets/images/hull.jpeg" style="width: 400px;">
+    <img src="/assets/images/outboard2.jpeg" style="width: 400px;">
   </div>
 
   <h3 class="section-title">
@@ -61,6 +61,12 @@ Once we finalized our gearbox design and ran FEA simulations on the predicted lo
 After final assembly of the gearbox, we then mounted the gearbox, motors, and inverters to a midsection and lower unit that we purchased. This comprised the entire outboard assembly, which was bolted to the D-Stock hull. We then worked with the High Voltage sub-team to test the powertrain, validating the total output using a load disk. 
   </p>
 </div>
+
+
+<div class="image-pair">
+    <img src="/assets/images/outboardCad.png" style="width: 375px;">
+    <img src="/assets/images/outboardExploded.png" style="width: 375px;">
+  </div>
 
 
 
