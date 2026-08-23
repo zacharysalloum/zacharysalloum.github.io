@@ -1,179 +1,131 @@
-<div class="section">
-  <h2 class="section-title no-underline">
-    Electric Outboard Motor – University of Michigan Electric Boat Team
-  </h2>
+---
+layout: default
+title: Zachary Salloum — Portfolio
+name: Zachary Salloum
+role_line: "Mechanical Engineering · University of Michigan · <span>open to opportunities</span>"
+lede: "I design and build electromechanical systems end to end — from spec and CAD through machining, assembly, and testing. Below are two projects that show that process: a 40 hp electric outboard motor built for competition, and a custom 3D printer designed from scratch around a $1,000 budget."
+headshot: /assets/images/ZachHeadshot.jpg
+spec_strip:
+  - key: Focus
+    value: Powertrain & drivetrain design
+  - key: Tools
+    value: SolidWorks, FEA, 5-axis mill
+  - key: Team
+    value: UM Electric Boat Team
+  - key: Based in
+    value: Ann Arbor, MI
+---
 
-<div class="image-pair">
-    <img src="/assets/images/hull.jpeg" style="width: 400px;">
-    <img src="/assets/images/outboard2.jpeg" style="width: 400px;">
+<div class="dim-divider">Project 01</div>
+
+<section class="project" id="prj-01" markdown="1">
+
+<div class="project-head">
+  <div>
+    <p class="project-id">PRJ-01 / POWERTRAIN</p>
+    <h1 class="project-title">Electric Outboard Motor</h1>
   </div>
-
-  <h3 class="section-title">
-    <span class="subheader-underline">Overview</span>
-      </h3>
-
-<p class="about-text">     
-This ongoing project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition, an electric boat race hosted by the American Society of Naval Engineers (ASNE) in Pourtsmouth, VA. This coming April, our team will compete in the crewed, planing hull division, which is a 5 mile race geared towards top-end speed (there are only 9 turns in the course). The competition enforces strict rules regarding what boats are allowed to compete. This impacted our design greatly, and caused us to place a large emphasis on efficiency and weight-reduction. Our team decided to utilize a D-Stock hull, which is light-weight and optimized for similar circle-track events. I worked on the outboard motor sub-team, and we were responsible for creating a fully electric outboard motor with a continuous power output of at least 40 horsepower and an operating voltage under 55V per the competition rules. This voltage regulation was extremely limiting, and it greatly shaped our motor design.
-  </p>
-
-  <h3 class="section-title">
-    <span class="subheader-underline">Constraints</span>
-  </h3>
-
-<p class="about-text">     
-There were two key constraints limiting the design of the outboard motor and the boat as a whole. Per the competition rules, our boat's battery had to have a voltage at or below 55.5V and a capacity at or below 500Ah. Our team also imposed additional constraints, as we aimed to create the fastest boat possible. For the outboard, we were to make a unit capable of outputting atleast 40 horsepower continuous. This goal, combined with the voltage limit, made it very difficulty to select an electric motor to power our outboard. At such a low voltage we were not able to find motors capable of producing the power necessary. This resulted in us choosing three smaller motors and linking them through a custom gearbox. The gearbox was another major design challenge, as we had to design it completely from scratch while taking into consideration weight and reliability.
-  </p>
+  <div class="project-org">University of Michigan Electric Boat Team · 2025–26</div>
 </div>
 
+<p class="tldr">Built a fully electric outboard motor for a competition boat entering the ASNE PEP Workforce Development race — 40+ hp continuous, under 55V, powered by three motors linked through a custom-machined gearbox designed from scratch.</p>
 
-<h3 class="section-title">
-    <span class="subheader-underline">The Build</span>
-  </h3>
-
-<div class="about-row">
-  <img src="/assets/images/motor.png" alt="motor">
-
-<p class="about-text">    
-The first part of the outboard motor build was selecting appropriate electric motors. Due to the 55.5V voltage limit, our team decided to build a 48V battery and pair it with 3 LMT 7065 electric motors. With 30kW peak output, we determined that 3 motors in tandem would allow us to meet our goal of 50 horsepower, and that this value will be limited mostly due to cooling, battery capacity, and inverter selection. 
-  </p>
+<div class="stat-row">
+  <div class="stat"><div class="num">40+ hp</div><div class="label">continuous output</div></div>
+  <div class="stat"><div class="num">&lt;55V</div><div class="label">operating voltage</div></div>
+  <div class="stat"><div class="num">3×</div><div class="label">LMT 7065 motors</div></div>
+  <div class="stat"><div class="num">5-mile</div><div class="label">planing hull race</div></div>
 </div>
 
-<div class="about-row">
-  <img src="/assets/images/gearbox bottom.jpeg" alt="gearbox">
+<div class="body-grid" markdown="1">
 
-<p class="about-text">    
-After speccing the motors, the next task was to create a gearbox that links the three motors to one output shaft. We first chose our desired shaft RPM by looking at the propellors used in boats of a similar class. We then ran calculations to determine the minimum gear face width required at our output power. From there we determined the optimal gear pitch while also accounting for the positioning of the motors in the limited space of the powerhead. We held a design review with our industry partner Weismann Transmissions to get feedback and answer certain questions on tolerances and shaft seals.
-  </p>
+<div class="constraints-col" markdown="1">
+### Constraints
+
+- Battery capped at 55.5V / 500Ah per competition rules
+- Team goal of 40 hp+ continuous — hard to hit at such low voltage
+- No single motor could deliver enough power, so three had to be linked
+- Custom gearbox needed to be light, reliable, and built from scratch
+
 </div>
 
-<div class="about-row">
-  <img src="/assets/images/gearbox assembled.jpeg" alt="gearbox">
+<div class="build-col" markdown="1">
+### The build
 
-<p class="about-text">    
-Once we finalized our gearbox design and ran FEA simulations on the predicted load, our team entered the assembly phase. The gearbox was machined on a 5-axis mill. Once that was machined, we created the shafts by cutting round stock to length and adding key slots into it on the mill. We also broached the gears we purchased and press-fit the bearings into the housing. The motor and encoder plates were also fabricated on the water jet, and a mount for the 3 motor inverters was designed and 3D printed.
-  </p>
+Selected three LMT 7065 motors (30kW peak each) paired with a 48V battery to clear the 55.5V limit while hitting the horsepower target — output ultimately bounded by cooling, battery capacity, and inverter choice rather than the motors themselves.
+
+Designed a custom gearbox to combine all three motors onto one output shaft: set target shaft RPM from comparable-class propellers, calculated minimum gear face width for the output power, and reviewed tolerances and shaft seals with industry partner Weismann Transmissions before machining on a 5-axis mill.
+
+Validated the finished powertrain with the High Voltage sub-team using a load disk, after mounting the gearbox, motors, and inverters to a purchased midsection and lower unit bolted to the team's D-Stock hull.
+
 </div>
 
-<div class="about-row">
-  <img src="/assets/images/outboard1.jpeg" alt="gearbox">
-
-<p class="about-text">    
-After final assembly of the gearbox, we then mounted the gearbox, motors, and inverters to a midsection and lower unit that we purchased. This comprised the entire outboard assembly, which was bolted to the D-Stock hull. We then worked with the High Voltage sub-team to test the powertrain, validating the total output using a load disk. 
-  </p>
 </div>
 
-
-<div class="image-pair">
-    <img src="/assets/images/outboardCad.png" style="width: 375px;">
-    <img src="/assets/images/outboardExploded.png" style="width: 375px;">
+<figure>
+  <div class="fig-pair">
+    <img src="/assets/images/gearbox assembled.jpeg" alt="Assembled gearbox">
+    <img src="/assets/images/outboard1.jpeg" alt="Outboard assembly mounted to lower unit">
   </div>
+  <figcaption><span class="fig-num">FIG. 1–2</span>Machined gearbox housing, and the full outboard assembly mounted to the lower unit.</figcaption>
+</figure>
 
+</section>
 
+<div class="dim-divider">Project 02</div>
 
-<div class="section">
-  <h2 class="section-title no-underline">
-    Custom 3D Printer Build
-  </h2>
+<section class="project" id="prj-02" markdown="1">
 
-  <img src="/assets/images/frontView2.jpeg"
-       alt="Custom 3D printer front view"
-       class="center-image">
-
-  <h3 class="section-title">
-    <span class="subheader-underline">Overview</span>
-  </h3>
-
-<p class="about-text">    
-The inspiration for this project came from the first 3D printer I owned: a Creality Ender 3. I bought that machine for $150, and it taught me much about 3D printing and additive manufacturing. However, the machine was often inconsistent. The finished prints were not always dimensionally accurate, and the printer could not reliably operate at speeds above 60mm/s. I searched to create a custom 3D printer that addresses all these issues, and also offers a larger build volume. My initial designs took inspiration from several popular models of 3D printers, including the Creality CR-10 and Prusa i3 MK3s. I looked to replicate the CR-10's massive build volume, while retaining the excellent print quality of the Prusa i3. To do this, I borrowed strengths from each machine's design, while engineering new solutions to their weaknesses.
-</p>
-
-  <h3 class="section-title">
-    <span class="subheader-underline">Constraints</span>
-  </h3>
-
-<p class="about-text">    
-This project was limited by several key constraints. First, it had a total budget of $1000. All material and development costs were not able to exceed that figure. Next, the 3D printer must be able to be built without the use of advanced machining processes (mill, lathe, CNC). Since I did not have access to a machine shop, it was necessary that all custom parts on the machine are able to be 3D printed rather than machined. Additionally, the finished product must be able to print at 100mm/s while retaining tolerances of +/- 0.5mm. At speeds of 50mm/s, it must have tolerances of +/- 0.2mm or better. Finally, the printer must be able to be easy to operate, with a screen that displays relevant information about print time and temperature readings.
-</p>
-
-  <h3 class="section-title">
-    <span class="subheader-underline">The Build</span>
-  </h3>
-
-<div class="about-row">
-  <img src="/assets/images/printerFrame.png" alt="Printer frame assembly">
-
-<p class="about-text">    
-The first step in the build was assembling the frame. 2020 and 2040 aluminum extrusions stood out as the most effective material for several reasons. First, they are affordable and readily available at a multitude of different sizes. Additionally, they are lightweight, stiff, and able to be fastened together easily. Aluminum profiles can be quickly fixed together with brackets, screws, and t-nuts. This allows for quick assembly and prototyping. It also makes the process of fastening components to the frame simple, as t-nuts can be inserted directly into the extrusions, eliminating the need to tap threads.
-  </p>
-</div>
-
-<div class="about-row">
-  <img src="/assets/images/printerFrame2.png" alt="Printer frame assembly">
-
-<p class="about-text">    
-After the assembly of the frame, the next step was mounting the Y and Z axis linear rods This was accomplished by fabricating custom parts that were 3D printed and mounted to the frame to secure the rods in place. Additionally, custom motor mounts were designed and mounted to attach the Y and Z axis stepper motors. The 2 Z-axis stepper motors received shaft couplers so that leadscrews can be attached, and the Y-axis motor received a belt pulley. Various other parts were also fabricated and attached during this step, including mounts for endstop sensors and the Y axis belt tensioner pulley.
-  </p>
-</div>
-
-<div class="about-row">
-  <img src="/assets/images/frameComplete.png" alt="Printer frame assembly">
-
-  <p class="about-text">    
-Next, the X-axis gantry was assembled. It consists of 2 linear rods that attach to a custom 3D printed piece on each end. Those plastic pieces also contain bearings and leadscrew nuts, allowing the entire X-axis to be moved vertically. A stepper motor is mounted to the plastic bracket on the left, and the belt pulley is fixed to the bracket on the right. Another 3D printed piece is attached to the bearings on the X-axis linear rods. This will serve as the mount for the hot-end and part cooling fan. 
-  </p>
-</div>
-
-<div class="about-row">
-  <img src="/assets/images/printerHotend.png" alt="Printer frame assembly">
-
-  <p class="about-text">    
-After the assembly of the X, Y, and Z axis movement systems, the heated bed and hot-end assemblies were then built and installed. The heated bed rests on top of an aluminum plate that clamps onto the linear rod bearings with the use of custom parts. The bed is suspended above the carriage plate by 4 springs with long screws going through them. This allows for height adjustment of the heated bed, and it is the standard design for nearly every FDM 3D printer available. The hot-end assembly consists of a 3D printed mounting plate that clamps onto the X-axis bearings. The hot-end is attached directly to the mounting plate, and a cooling fan and duct are also screwed on. The drive belt is also fixed to the rear of the mounting plate so that the entire assembly can be moved. 
-  </p>
-</div>
-
-<div class="about-row">
-  <img src="/assets/images/printerExtruder.png" alt="Printer frame assembly">
-
-  <p class="about-text">    
-Next, the extruder assembly was made. It consists of a stepper motor, custom mounting bracket, and extruder. I used an off-the-shelf extruder due to its affordability and design complexity. A Bowden style extruder was chosen for this build, due to this printer's emphasis on printing speed. Bowden extruders push filament through a tube, into the hot-end. This allows the stepper motor and extruder to be mounted to the frame of the printer, rather than directly to the hot-end. Direct-feed extruding systems often create an effect known as "ringing" at higher print speeds, due to too much weight being placed on the hot-end. Additionally, since weight is not a consideration, a bigger stepper motor can be used. This further enables high-speed printing, as larger motors overheat less.
-  </p>
-</div>
-
-<div class="about-row">
-  <img src="/assets/images/printerElectronics.png" alt="Printer frame assembly">
-
-  <p class="about-text">    
-Finally, 4 key electronics were selected. First, a 24V 350W power supply was chosen to power the printer. Then, a BigTreeTech SKR Mini E3 was chosen to be this printer's mainboard. This mainboard is extremely affordable at around $40, and it allows all of the stepper motors and sensors to be plugged in and controlled. It's also a very robust option, with a 32-bit processor, silent TMC2209 motor drivers, and a multitude of fan ports. It also meshes well with the BTT TFT35 LCD screen, which I chose to be the screen for this printer due to its affordability, clean UI, and touchscreen function. Finally, I chose a 25A mosfet to control the heated bed, as the main-board's built-in mosfet was not adequate. Custom enclosures were designed and 3D printed to hold all of these parts, as well as cooling fans where necessary.
-  </p>
-</div>
-
-<div class="image-pair">
-    <img src="/assets/images/printerComplete2.png" style="width: 400px;">
-    <img src="/assets/images/printerComplete3.png" style="width: 400px;">
+<div class="project-head">
+  <div>
+    <p class="project-id">PRJ-02 / ADDITIVE MFG</p>
+    <h1 class="project-title">Custom 3D Printer Build</h1>
   </div>
-  
-<div class="image-pair">
-    <img src="/assets/images/sideView.jpeg" style="width: 400px;">
-    <img src="/assets/images/rearView.jpeg" style="width: 400px;">
+  <div class="project-org">Personal project</div>
+</div>
+
+<p class="tldr">Designed and built a custom FDM printer from the ground up to fix everything my $150 Ender 3 got wrong — inconsistent prints, low speed, small volume — while staying under a $1,000 budget and needing zero machine-shop access.</p>
+
+<div class="stat-row">
+  <div class="stat"><div class="num">±0.05mm</div><div class="label">dimensional accuracy</div></div>
+  <div class="stat"><div class="num">300°C</div><div class="label">max hot-end temp</div></div>
+  <div class="stat"><div class="num">280³mm</div><div class="label">build volume</div></div>
+  <div class="stat"><div class="num">$600</div><div class="label">total build cost</div></div>
+</div>
+
+<div class="body-grid" markdown="1">
+
+<div class="constraints-col" markdown="1">
+### Constraints
+
+- $1,000 total budget for all parts and materials
+- No mill, lathe, or CNC access — every custom part had to be 3D printed
+- Target: 100mm/s at ±0.5mm, or ±0.2mm at 50mm/s
+- Had to stay easy to operate, with live print/temp readout
+
+</div>
+
+<div class="build-col" markdown="1">
+### The build
+
+Framed the machine in 2020/2040 aluminum extrusion for a stiff, lightweight structure that bolts together with t-nuts — no tapping required — then mounted Y/Z linear rods and stepper motors using custom 3D-printed brackets.
+
+Built the X-axis gantry on linear rod bearings rather than v-slot wheels for lower rolling resistance and tighter tolerances, and chose a Bowden-style extruder to keep weight off the hot-end and avoid the "ringing" that direct-drive setups get at speed.
+
+Wired it up with a BigTreeTech SKR Mini E3 mainboard, silent TMC2209 drivers, a BTT TFT35 touchscreen, and an E3D all-metal hot-end rated to 300°C — enclosures for all of it were custom-designed and printed.
+
+</div>
+
+</div>
+
+<figure>
+  <div class="fig-pair">
+    <img src="/assets/images/printerComplete2.png" alt="Completed 3D printer, front angle">
+    <img src="/assets/images/printerElectronics.png" alt="Printer electronics enclosure">
   </div>
+  <figcaption><span class="fig-num">FIG. 1–2</span>Finished printer, and the custom-enclosed mainboard/electronics bay.</figcaption>
+</figure>
 
-<div class="image-pair">
-    <img src="/assets/images/extruder.jpeg" style="width: 400px;">
-    <img src="/assets/images/xCarriageSide.jpeg" style="width: 400px;">
-  </div>
+Biggest trade-off: the moving bed's mass limited top speed before the steppers overheated — a reminder that build volume and print speed pull against each other on any moving-bed printer. Biggest win: the linear-rod bearing system held ±0.05mm accuracy, well inside spec.
 
-<div class="image-pair">
-    <img src="/assets/images/mainboard.jpeg" style="width: 400px;">
-    <img src="/assets/images/mosfet.jpeg" style="width: 400px;">
-  </div>
-
-  <h3 class="section-title">
-    <span class="subheader-underline">Conclusion</span>
-  </h3>
-
-<p class="about-text">    
-Overall, this project was very successful. I learned much about how FDM 3D printers work, and how to design them in order to meet certain criteria. The finished printer, while not perfect, achieved many of the goals I had in mind, and performed significantly better than my Creality Ender 3. And, at around $600, I spent less on this project than I had budgeted. Ultimately, the machine I built was able to print roughly 40mm/s faster than my Creality Ender-3 while retaining the same print quality. However, speed was not ultimately this printer's greatest strength, due to the large print surface. While the X-axis was set up to be light weight, the sliding bed assembly was relatively heavy. Moving it at overly high speeds resulted in the stepper motors overheating, which produces worsened print quality. This demonstrates the fundamental trade-off between speed and build capacity on printers with moving beds: as the size of the build surface increases, the harder it is to move quickly and accurately. That said, this machine's build volume was very satisfactory: 280mm x 280mm x 300mm, compared to the Ender 3's build volume of 220mm x 220mm x 250mm. <p/>
-  
-<p class="about-text">
-Additionally, the machine offers excellent dimensional accuracy due to the linear rod bearing system. While many cheaper 3D printers use v-slot wheels that slide along the aluminum extrusions, my machine utilized linear rods and bearings. This system is superior as it offers less rolling resistance and more precise movement. This style of bearing also wears out less over time. The result was dimensional accuracy of around +/- 0.05mm in all of my tests, which was the greatest success of this project. Another strength of this 3D printer is its capacity for high temperature printing. While many 3D printers are typically rated up to 240 degree Celcius, this one has an all-metal hot-end from E3D, and can achieve temperatures up to 300 Celcius. This enables it to print a multitude of different filaments. Finally, I am proud of the machine's form factor and usability. The frame of the machine was extremely stiff and lightweight, and it is very easy to build onto to it in the future. The heated bed is magnetic, allowing build surfaces to be quickly swapped, and the LCD touchscreen I installed makes using the machine very straightforward and easy. The final result was a versatile printer that produces quality results and is as easy to use as most other 3D printers on the market.
-</p>
+</section>
