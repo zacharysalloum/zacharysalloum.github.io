@@ -82,9 +82,10 @@ This ongoing project is a part of the University of Michigan Electric Boat Team'
 ### Constraints
 
 - Battery capped at 55.5V / 500Ah
-- Team goal of 40+ hp continuous
-- Motor must be available
-- Gearbox had to be designed completely from scratch — light, reliable, and small enough to fit the powerhead
+- 40+ hp continuous (Team goal)
+- 50lbs max weight (Team goal)
+- Comercially available motor + inverter
+- IP66 water resistance
 
 </div>
 
