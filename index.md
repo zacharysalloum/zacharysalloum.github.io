@@ -17,7 +17,7 @@ spec_strip:
 
 <section class="project" id="about-more" markdown="1">
 
-<p class="tldr">Since I was a kid, I've always enjoyed doing. In engineering, this has meant getting involved in project teams, internships, and personal projects where I've been able to take my ideas from design to prototype. Outside of engineering, it has meant staying busy by indulging in my many hobbies</p>
+<p class="tldr">Since I was a kid, I've always enjoyed doing. In engineering, this has meant getting involved in project teams, internships, and personal projects where I've been able to take my ideas from design to prototype. Outside of engineering, it has meant staying busy with several different hobbies</p>
 
 <div class="body-grid" markdown="1">
 
