@@ -1,6 +1,6 @@
 ---
 layout: default
-name: Zachary Salloum
+title: Zachary Salloum
 role_line: "Mechanical Engineering · University of Michigan · <span>open to opportunities</span>"
 lede: "I am a sophomore MechE at the University of Michigan and I love to build. Interested in anything that has wheels, wings, or props. Feel free to get in touch!"
 headshot: /assets/images/ZachHeadshot.jpg
