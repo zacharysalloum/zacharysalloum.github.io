@@ -223,12 +223,13 @@ h1.name{
 }
 
 .hero-shot{
+  width:70%;
   border-radius:14px;
   overflow:hidden;
   box-shadow:0 16px 40px rgba(42,38,32,.14);
   margin-bottom:36px;
 }
-.hero-shot img{display:block;width:75%;}
+.hero-shot img{display:block;width:100%;}
 
 .stat-row{
   display:flex;
