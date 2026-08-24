@@ -76,8 +76,8 @@ header.hero{
   align-items:center;
 }
 .headshot-wrap{
-  width:150px;
-  height:150px;
+  width:200px;
+  height:200px;
   border-radius:50%;
   overflow:hidden;
   box-shadow:0 10px 24px rgba(42,38,32,.15);
