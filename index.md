@@ -2,7 +2,7 @@
 layout: default
 title: Zachary Salloum
 role_line: "Mechanical Engineering · University of Michigan · <span>open to opportunities</span>"
-lede: "I am a sophomore MechE at the University of Michigan and I love to build. Interested in anything that has wheels, wings, or props"
+lede: "I am a sophomore MechE at the University of Michigan and I love to build. Interested in anything that has wheels, wings, or props. Feel free to get in touch!"
 headshot: /assets/images/ZachHeadshot.jpg
 spec_strip:
   - key: Focus
@@ -10,14 +10,14 @@ spec_strip:
   - key: Tools
     value: Siemens NX, Mill, Lathe
   - key: Based in
-    value: Ann Arbor, MI
+    value: Birmingham, MI
 ---
 
 <div class="dim-divider">About</div>
 
 <section class="project" id="about-more" markdown="1">
 
-<p class="tldr"> </p>
+<p class="tldr">Since I was a kid, I've always enjoyed doing. In engineering, this has meant getting involved in project teams and internships where I've been able to take my ideas from design to prototype. Outside of engineering, I stay busy by spending time outdoors and with others</p>
 
 <div class="body-grid" markdown="1">
 
@@ -25,7 +25,7 @@ spec_strip:
 ### In my free time I love:
 
 - Mountain Biking and Skiing
-- Restoring my 1988 Ford Bronco
+- Restoring my '88 Ford Bronco
 - Finding new fishing spots
 - Playing golf and tennis
 
