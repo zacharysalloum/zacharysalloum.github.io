@@ -1,0 +1,21 @@
+title: Zachary Salloum — Portfolio
+description: Mechanical engineering portfolio
+
+eyebrow: MECHANICAL ENGINEERING PORTFOLIO
+nav_mark: Z. SALLOUM
+
+# ---- fill these in ----
+resume_url: /assets/Zachary_Salloum.pdf
+linkedin_url: https://www.linkedin.com/in/YOUR_LINKEDIN_HERE/
+github_url: https://github.com/YOUR_GITHUB_HERE
+email: YOUR_EMAIL_HERE
+
+nav_links:
+  - label: ABOUT
+    url: "#about"
+  - label: "PRJ 01 — OUTBOARD"
+    url: "#prj-01"
+  - label: "PRJ 02 — PRINTER"
+    url: "#prj-02"
+
+markdown: kramdown
