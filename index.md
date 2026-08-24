@@ -34,16 +34,21 @@ spec_strip:
 
 </div>
 
-<div class="build-col" markdown="1">
-### How I think about engineering
+<div class="about-photos" markdown="1">
 
-I like problems where the constraint is the interesting part — a voltage cap, a budget, no machine shop. That's when you actually have to think instead of just reaching for the obvious part. My favorite moment in any project is always the same: the first time something that only existed in CAD actually spins, prints, or floats.
+<figure class="log-photo">
+  <img src="[PHOTO_1_PATH]" alt="[describe the photo]">
+  <figcaption>[optional short caption]</figcaption>
+</figure>
+
+<figure class="log-photo">
+  <img src="[PHOTO_2_PATH]" alt="[describe the photo]">
+  <figcaption>[optional short caption]</figcaption>
+</figure>
 
 </div>
 
 </div>
-
-<div class="pull-note">If it's not a little bit stressful, I'm probably not learning anything from it.</div>
 
 </section>
 
