@@ -235,7 +235,7 @@ h1.name{
   display:flex;
   flex-wrap:wrap;
   gap:12px;
-  margin:0 0 40px;
+  margin:0 auto 40px;
 }
 .stat{
   background:var(--card);
