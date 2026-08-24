@@ -6,16 +6,15 @@ nav_mark: Z. SALLOUM
 
 # ---- fill these in ----
 resume_url: /assets/Zachary_Salloum.pdf
-linkedin_url: https://www.linkedin.com/in/YOUR_LINKEDIN_HERE/
-github_url: https://github.com/YOUR_GITHUB_HERE
-email: YOUR_EMAIL_HERE
+linkedin_url: https://www.linkedin.com/in/zachsalloum/
+email: zachsall7@gmail.com
 
 nav_links:
   - label: ABOUT
     url: "#about"
-  - label: "PRJ 01 — OUTBOARD"
-    url: "#prj-01"
-  - label: "PRJ 02 — PRINTER"
-    url: "#prj-02"
+  - label: "PRJ 1 — OUTBOARD"
+    url: "#prj-1"
+  - label: "PRJ 2 — 3D PRINTER"
+    url: "#prj-2"
 
 markdown: kramdown
