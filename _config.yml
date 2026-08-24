@@ -1,9 +1,0 @@
-title: Zachary Salloum
-description: Hello! This my engineering portfolio featuring some of my personal and academic projects
-theme: jekyll-theme-slate
-sass:
-  style: compressed
-
-markdown: kramdown
-kramdown:
-  input: GFM
