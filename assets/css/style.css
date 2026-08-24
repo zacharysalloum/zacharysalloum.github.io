@@ -35,7 +35,7 @@ nav{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:16px 40px;
+  padding:16px 52px;
   font-family:var(--font-display);
   font-size:15px;
   font-weight:500;
@@ -59,7 +59,7 @@ nav{
 header.hero{
   max-width:980px;
   margin:0 auto;
-  padding:70px 40px 30px;
+  padding:70px 52px 30px;
 }
 .eyebrow{
   font-family:var(--font-mono);
@@ -149,7 +149,7 @@ h1.name{
 .dim-divider{
   max-width:980px;
   margin:0 auto;
-  padding:0 40px;
+  padding:0 52px;
   display:flex;
   align-items:center;
   gap:16px;
@@ -170,7 +170,7 @@ h1.name{
 .project{
   max-width:980px;
   margin:0 auto;
-  padding:52px 40px 70px;
+  padding:52px 52px 70px;
 }
 .project-head{
   display:flex;
@@ -284,6 +284,15 @@ h1.name{
 .constraints-col ul{margin:0;padding-left:18px;}
 .constraints-col li{margin-bottom:10px;color:#2a3742;}
 
+.about-photos{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+  align-self:start;
+}
+.about-photos .log-photo{margin:0;}
+.about-photos .log-photo img{aspect-ratio:1/1;object-fit:cover;}
+
 /* ---------- build log (photo essay) ---------- */
 .build-log{margin-top:44px;}
 .log-step{
@@ -376,7 +385,7 @@ h1.name{
 footer{
   background:var(--ink);
   color:#dbe6ef;
-  padding:44px 40px;
+  padding:44px 52px;
   font-family:var(--font-mono);
   font-size:13px;
 }
