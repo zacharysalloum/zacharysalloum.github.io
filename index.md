@@ -35,7 +35,7 @@ spec_strip:
 
 <figure class="log-photo">
   <img src="/assets/images/river.jpg" alt="au sable river">
-  <figcaption>The Au Sable River in Grayling</figcaption>
+  <figcaption>The Au Sable River in Grayling, MI</figcaption>
 </figure>
 
 <figure class="log-photo">
@@ -55,13 +55,12 @@ spec_strip:
 
 <div class="project-head">
   <div>
-    <p class="project-id">PRJ-01 / POWERTRAIN</p>
     <h1 class="project-title">Electric Outboard Motor <span class="status-badge">In progress</span></h1>
   </div>
   <div class="project-org">University of Michigan Electric Boat Team · 2025–26</div>
 </div>
 
-<p class="tldr">This year our team is racing a fully electric outboard motor I helped design — 40+ hp continuous, under 55V, and powered by three motors linked through a gearbox that we machined from scratch.</p>
+<p class="tldr">This year, my project team is racing a fully electric outboard motor I helped design — 40+ hp continuous, under 55V, and powered by three motors linked through a gearbox that we machined from scratch.</p>
 
 <div class="hero-shot">
   <img src="/assets/images/hull.jpeg" alt="Team boat hull">
@@ -168,7 +167,6 @@ At 55.5V, we simply couldn't find a single motor rated for the power we needed �
 
 <div class="project-head">
   <div>
-    <p class="project-id">PRJ-02 / ADDITIVE MFG</p>
     <h1 class="project-title">Custom 3D Printer Build</h1>
   </div>
   <div class="project-org">Personal project</div>
