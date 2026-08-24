@@ -1,17 +1,14 @@
 ---
 layout: default
-title: Zachary Salloum — Portfolio
-name: Zachary Salloum
+title: Zachary Salloum
 role_line: "Mechanical Engineering · University of Michigan · <span>open to opportunities</span>"
-lede: "I like taking things apart to see why they work, then building something better. Below are two projects that show that process end to end — a 40 hp electric outboard motor built for competition, and a custom 3D printer I designed from scratch to fix everything my old one got wrong."
+lede: "I am a sophomore MechE at the University of Michigan and I love to build. Interested in anything that has wheels, wings, or props"
 headshot: /assets/images/ZachHeadshot.jpg
 spec_strip:
   - key: Focus
     value: Powertrain & drivetrain design
   - key: Tools
-    value: SolidWorks, FEA, 5-axis mill
-  - key: Team
-    value: UM Electric Boat Team
+    value: Siemens NX, Mill, Lathe
   - key: Based in
     value: Ann Arbor, MI
 ---
@@ -20,30 +17,30 @@ spec_strip:
 
 <section class="project" id="about-more" markdown="1">
 
-<p class="tldr">I've always been the kid who took the toaster apart to see why it worked — I just never really grew out of it. Most of what I build starts the same way: something breaks or annoys me, and I decide I can do better.</p>
+<p class="tldr"> </p>
 
 <div class="body-grid" markdown="1">
 
 <div class="constraints-col" markdown="1">
-### Outside the shop
+### In my free time I love:
 
-- Rock climbing most weekends
-- Slowly restoring an old dirt bike
-- Officer with the UM Formula SAE club
-- Makes a genuinely terrible cup of coffee
+- Mountain Biking and Skiing
+- Restoring my 1988 Ford Bronco
+- Finding new fishing spots
+- Playing golf and tennis
 
 </div>
 
 <div class="about-photos" markdown="1">
 
 <figure class="log-photo">
-  <img src="[PHOTO_1_PATH]" alt="[describe the photo]">
-  <figcaption>[optional short caption]</figcaption>
+  <img src="/assets/images/river.jpg" alt="au sable river">
+  <figcaption>The Au Sable River in Grayling</figcaption>
 </figure>
 
 <figure class="log-photo">
-  <img src="[PHOTO_2_PATH]" alt="[describe the photo]">
-  <figcaption>[optional short caption]</figcaption>
+  <img src="/assets/images/bronco.JPG" alt="1988 Bronco ii">
+  <figcaption>My 1988 Ford Bronco ii</figcaption>
 </figure>
 
 </div>
