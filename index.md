@@ -8,7 +8,7 @@ spec_strip:
   - key: Focus
     value: Powertrain & drivetrain design
   - key: Tools
-    value: Siemens NX, Mill, Lathe
+    value: Siemens NX, Mill, Lathe, MIG/TIG
   - key: Based in
     value: Birmingham, MI
 ---
@@ -17,7 +17,7 @@ spec_strip:
 
 <section class="project" id="about-more" markdown="1">
 
-<p class="tldr">Since I was a kid, I've always enjoyed doing. In engineering, this has meant getting involved in project teams and internships where I've been able to take my ideas from design to prototype. Outside of engineering, I stay busy by spending time outdoors and with others</p>
+<p class="tldr">Since I was a kid, I've always enjoyed doing. In engineering, this has meant getting involved in project teams, internships, and personal projects where I've been able to take my ideas from design to prototype. Outside of engineering, it has meant staying busy by indulging in my many hobbies</p>
 
 <div class="body-grid" markdown="1">
 
@@ -44,10 +44,10 @@ spec_strip:
 </figure>
 
 </div>
-
 </div>
-
 </section>
+
+
 
 <div class="dim-divider">Project 01</div>
 
@@ -61,7 +61,7 @@ spec_strip:
   <div class="project-org">University of Michigan Electric Boat Team · 2025–26</div>
 </div>
 
-<p class="tldr">This spring our team is racing a fully electric outboard motor I helped design — 40+ hp continuous, under 55V, and powered by three motors linked through a gearbox we machined from scratch.</p>
+<p class="tldr">This year our team is racing a fully electric outboard motor I helped design — 40+ hp continuous, under 55V, and powered by three motors linked through a gearbox that we machined from scratch.</p>
 
 <div class="hero-shot">
   <img src="/assets/images/hull.jpeg" alt="Team boat hull">
@@ -71,19 +71,19 @@ spec_strip:
   <div class="stat"><div class="num">40+ hp</div><div class="label">continuous output</div></div>
   <div class="stat"><div class="num">&lt;55V</div><div class="label">operating voltage</div></div>
   <div class="stat"><div class="num">3×</div><div class="label">LMT 7065 motors</div></div>
-  <div class="stat"><div class="num">5-mile</div><div class="label">planing hull race</div></div>
+  <div class="stat"><div class="num">D-Stock</div><div class="label">Planing Hull</div></div>
 </div>
 
-This is an ongoing part of the University of Michigan Electric Boat Team's 2025/26 competition boat. We're headed to the 2026 PEP Workforce Development Competition, an electric boat race the American Society of Naval Engineers runs in Portsmouth, VA — a crewed, planing-hull sprint built for top-end speed, with only 9 turns across the whole 5-mile course. I've been on the outboard motor sub-team, responsible for building a fully electric outboard with at least 40 continuous horsepower, capped under 55V by competition rules. That voltage ceiling ended up shaping almost every decision we made.
+This ongoing project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition - an electric boat race hosted by the American Society of Naval Engineers in Pourtsmouth, VA - in the crewed, planing hull division, which is a 5 mile circle-track race geared towards top-end speed. We are utilizing a D-Stock hull, which is light-weight and optimized for similar circle-track events. I worked on the outboard motor sub-team, where we are creating a light-weight electric outboard motor with at least 40 continuous horsepower at an operating voltage under 55V per the competition rules.
 
 <div class="body-grid" markdown="1">
 
 <div class="constraints-col" markdown="1">
 ### Constraints
 
-- Battery capped at 55.5V / 500Ah, no exceptions
-- Team goal: 40+ hp continuous, which is a lot to ask at that voltage
-- No single motor on the market could get us there
+- Battery capped at 55.5V / 500Ah
+- Team goal of 40+ hp continuous
+- Motor must be available
 - Gearbox had to be designed completely from scratch — light, reliable, and small enough to fit the powerhead
 
 </div>
@@ -149,17 +149,17 @@ At 55.5V, we simply couldn't find a single motor rated for the power we needed �
 
 </div>
 
-<div class="pull-note">At such a low voltage ceiling, almost nothing off the shelf could get us to 40 horsepower — the gearbox is what made three small motors act like one big one.</div>
-
+<h4>Photos</h4>
 <div class="gallery-strip">
   <img src="/assets/images/outboard2.jpeg" alt="Outboard side detail">
   <img src="/assets/images/outboardCad.png" alt="Outboard CAD model">
   <img src="/assets/images/outboardExploded.png" alt="Outboard exploded view">
 </div>
-
-<p style="color:#3a352c;max-width:74ch;">This project is still very much in progress — race day is this coming April, and there's more testing ahead. I'll update this page with results once we're back from Portsmouth.</p>
-
 </section>
+
+
+
+
 
 <div class="dim-divider">Project 02</div>
 
