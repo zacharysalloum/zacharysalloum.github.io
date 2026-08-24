@@ -227,7 +227,7 @@ h1.name{
   border-radius:14px;
   overflow:hidden;
   box-shadow:0 16px 40px rgba(42,38,32,.14);
-  margin-bottom:36px;
+  margin:0 auto 36px;
 }
 .hero-shot img{display:block;width:100%;}
 
