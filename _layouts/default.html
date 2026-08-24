@@ -12,7 +12,6 @@
 <body>
 
 <nav>
-  <div class="nav-mark">{{ site.nav_mark | default: "Z. SALLOUM" }}</div>
   <div class="nav-links">
     {% for item in site.nav_links %}
       <a href="{{ item.url }}">{{ item.label }}</a>
