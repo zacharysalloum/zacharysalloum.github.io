@@ -2,7 +2,7 @@
 layout: default
 title: Zachary Salloum
 role_line: "Mechanical Engineering Portfolio"
-lede: "I am a sophomore MechE at the University of Michigan and I love to build. Interested in anything that has wheels, wings, or props. Feel free to get in touch!"
+lede: "I am a sophomore MechE at the University of Michigan and I love to build. Feel free to get in touch!"
 headshot: /assets/images/ZachHeadshot.jpg
 spec_strip:
   - key: Focus
@@ -17,7 +17,7 @@ spec_strip:
 
 <section class="project" id="about-more" markdown="1">
 
-<p class="tldr">Since I was a kid, I've always enjoyed learning by doing. In engineering, this has meant getting involved in project teams, internships, and personal projects where I've been able to take my ideas from design to prototype. Outside of engineering, it has meant engaging in several different hobbies that enrich my life</p>
+<p class="tldr">Since I was a kid, I've always enjoyed learning by doing. In engineering, this has meant getting involved in project teams, internships, and personal projects where I've been able to take my ideas from design to prototype. Outside of engineering, it has meant engaging in several different enriching hobbies</p>
 
 <div class="body-grid" markdown="1">
 
