@@ -72,7 +72,7 @@ spec_strip:
   <div class="stat"><div class="num">D-Stock</div><div class="label">Planing Hull</div></div>
 </div>
 
-This ongoing project is a part of the University of Michigan Electric Boat Team's current competition boat. Our team entered the 2026 PEP Workforce Development Competition - an electric boat race hosted by the American Society of Naval Engineers in Pourtsmouth, VA - in the crewed, planing hull division, which is a 5 mile circle-track race geared towards top-end speed. We are utilizing a D-Stock hull, which is light-weight and optimized for such events. I worked on the outboard motor sub-team, where we are creating a light-weight electric outboard motor with at least 40 continuous horsepower at an operating voltage under 55V per the competition rules.
+This ongoing project is a part of the University of Michigan Electric Boat Team's current competition boat. Our team entered the 2026 PEP Workforce Development Competition - an electric boat race hosted by the American Society of Naval Engineers in Pourtsmouth, VA - in the crewed, planing hull division, which is a 5 mile circle-track race geared towards top-end speed. We are utilizing a light-weight D-Stock hull, which is optimized for such events. I worked on the outboard motor sub-team, where we are creating a light-weight electric outboard motor with at least 40 continuous horsepower at an operating voltage under 55V per the competition rules.
 
 <div class="body-grid" markdown="1">
 
@@ -105,40 +105,40 @@ Given the limit of 55.5V, we decided to build a 48V battery. At this voltage, we
   </figure>
   <div class="log-text">
     <h4>Step 01 — Motor selection</h4>
-    <p>Once it was clear no single motor could hit 40+ hp under 55V, we pivoted to three in tandem. It meant more complexity downstream — namely, a gearbox that didn't exist yet — but it was the only path to the power we needed.</p>
+    <p>Once it was clear three motors were needed, we started thinking about how to use a gearbox to link the motors together to one output shaft. The biggest issue initially was trying to come up with a compact motor-gearbox assembly that fits in the powerhead with space remaining for the inverters.</p>
   </div>
 </div>
 
 <div class="log-step reverse">
   <figure class="log-photo">
     <img src="/assets/images/outboardExploded.png" alt="Outboard exploded view">
-    <figcaption>Early gearbox housing — this is where all three motors had to come together onto one shaft.</figcaption>
+    <figcaption>Early outboard CAD assembly</figcaption>
   </figure>
   <div class="log-text">
     <h4>Step 02 — Designing the Gearbox</h4>
-    <p>We picked our target shaft RPM by studying propellers on similar-class boats, then ran the numbers to find the minimum gear face width our output power would need. From there we worked out gear pitch while juggling how tight the powerhead really was for space. We also sat down with our industry partner, Weismann Transmissions, for a design review on tolerances and shaft seals — a genuinely useful reality check before we committed to machining anything.</p>
+    <p>We picked our target shaft RPM by looking at propellers on similar-output D-Stock boats. Then, we calculated the minimum gear face width our output power would need. From there we determined the optimal gear pitch while also accounting for the positioning of the motors in the limited space of the powerhead. We held a design review with our industry partner Weismann Transmissions to get feedback and answer specific questions on tolerances and shaft seals.</p>
   </div>
 </div>
 
 <div class="log-step">
   <figure class="log-photo">
     <img src="/assets/images/gearbox bottom.jpeg" alt="Gearbox housing, bottom view">
-    <figcaption>The finished gearbox, machined on a 5-axis mill and press-fit with bearings.</figcaption>
+    <figcaption>The machined gearbox housing, with bearings</figcaption>
   </figure>
   <div class="log-text">
-    <h4>Step 03 — Machining</h4>
-    <p>After FEA validated the load case, we moved into assembly: the housing was machined on a 5-axis mill, shafts were cut from round stock and key-slotted, gears were broached, and bearings were press-fit into place. Motor and encoder plates came off the water jet, and the inverter mount was 3D printed to save weight.</p>
+    <h4>Step 03 — Machining and assembly</h4>
+    <p>Once we finalized our gearbox design and ran FEA simulations on the predicted load, we entered the assembly phase. The gearbox housing was machined on a 5-axis mill. While that was machined, we created the shafts by cutting round stock to length and milling key slots into it. We also broached the purchased gears and press-fit the bearings into the housing. The motor and encoder plates were fabricated on a water jet, and a mount for the 3 motor inverters was designed and 3D printed.</p>
   </div>
 </div>
 
 <div class="log-step reverse">
   <figure class="log-photo">
     <img src="/assets/images/outboard1.jpeg" alt="Full outboard assembly on lower unit">
-    <figcaption>The complete outboard — gearbox, motors, and inverters mounted to the lower unit and bolted to the hull.</figcaption>
+    <figcaption>The early-stage outboard bolted to the hull.</figcaption>
   </figure>
   <div class="log-text">
-    <h4>Step 04 — Putting it all together</h4>
-    <p>With the gearbox finished, we mounted it along with the motors and inverters onto a purchased midsection and lower unit, then bolted the whole assembly to our D-Stock hull. From there we worked with the High Voltage sub-team to validate total output using a load disk — the moment all the earlier math either held up or didn't. It held up.</p>
+    <h4>Step 04 — Outboard assembly</h4>
+    <p>After final assembly of the gearbox, we then mounted the gearbox, motors, and inverters to a midsection and lower unit that we purchased. This comprised the entire outboard assembly, less the cowl, which will be made out of carbon fiber. We bolted the assembly to the D-Stock hull, and worked with the High Voltage sub-team to test the powertrain, validating the total output using a load disk. </p>
   </div>
 </div>
 
@@ -150,8 +150,9 @@ Given the limit of 55.5V, we decided to build a 48V battery. At this voltage, we
   <img src="/assets/images/gearbox assembled.jpeg" alt="Fully assembled gearbox">
 </div>
 
-<p>Now, our team is moving forward with dry tests and troubleshooting as we prepare to start our 2026-27 season with a float test.</p>
+<p>Now, our team is moving forward with more system integration, dry tests, and troubleshooting as we prepare to start our 2026-27 season with a float test.</p>
 </section>
+
 
 
 
