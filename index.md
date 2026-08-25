@@ -246,7 +246,7 @@ Before any design could begin, I researched existing 3D printers to determine ce
     <figcaption>Heated bed and hot-end installed</figcaption>
   </figure>
   <div class="log-text">
-    <h4>Step 04 — Adding the geated bed and hot-end</h4>
+    <h4>Step 04 — Adding the heated bed and hot-end</h4>
     <p>Next, the heated bed and hot-end assemblies were built and installed. The heated bed sits above an aluminum carriage plate that clamps onto the linear rod bearings. The two plates are separated by 4 springs and screws to allow for height adjustment of the heated bed. The hot-end assembly consists of a 3D printed mounting plate that clamps onto the X-axis bearings, the hot-end itself, as well as a cooling fan and duct. At this point, the X and Y drive belts were installed and tensioned.</p>
   </div>
 </div>
