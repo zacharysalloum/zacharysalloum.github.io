@@ -169,7 +169,7 @@ Given the limit of 55.5V, we decided to build a 48V battery. At this voltage, we
   <div class="project-org">Personal project</div>
 </div>
 
-<p class="tldr">My first 3D printer was a $150 Ender 3 that taught me a ton — and frustrated me just as much. So I designed and built my own from scratch to fix what it got wrong, on a $1,000 budget and with zero machine-shop access.</p>
+<p class="tldr">The inspiration for this project came from the first 3D printer I owned: a Creality Ender 3. I bought that machine for $150, and it taught me much about 3D printing and additive manufacturing. However, it left a ton on the table in terms of performance. </p>
 
 <div class="hero-shot">
   <img src="/assets/images/frontView2.jpeg" alt="Completed custom 3D printer, front view">
@@ -182,17 +182,17 @@ Given the limit of 55.5V, we decided to build a 48V battery. At this voltage, we
   <div class="stat"><div class="num">$600</div><div class="label">total build cost</div></div>
 </div>
 
-The inspiration was that first Ender 3. It taught me a lot about additive manufacturing, but it was inconsistent — prints weren't always dimensionally accurate, and it couldn't reliably run above 60mm/s. I wanted something that fixed that, with a bigger build volume too. I looked at what I liked about the Creality CR-10 (its huge build volume) and the Prusa i3 MK3s (its print quality), borrowed the strengths of each, and engineered around their weaknesses.
+My Ender 3 printer was often inconsistent. The finished prints were not always dimensionally accurate, and the printer could not reliably operate at speeds above 60mm/s. I worked to create a custom 3D printer that addresses all these issues, while having a larger build volume. My initial design took inspiration from several popular models of 3D printers, including the Creality CR-10 and Prusa i3 MK3s. I looked to replicate the CR-10's massive build volume and capture the excellent print quality of the Prusa i3. To do this, I borrowed strengths from each machine's design, while engineering new solutions to their weaknesses.
 
 <div class="body-grid" markdown="1">
 
 <div class="constraints-col" markdown="1">
 ### Constraints
 
-- $1,000 total budget for everything
-- No mill, lathe, or CNC access — every custom part had to be 3D printed
-- Target: 100mm/s at ±0.5mm, or ±0.2mm at 50mm/s
-- Needed a screen showing live print time and temperature, so it stayed easy to use
+- $1,000 total budget
+- No mill, lathe, or CNC access
+- 100mm/s at ±0.1mm, ±0.05mm at 50mm/s
+- Maintain benchmark ease-of-use
 
 </div>
 
@@ -281,7 +281,6 @@ The inspiration was that first Ender 3. It taught me a lot about additive manufa
 
 </div>
 
-<div class="pull-note">The finished printer runs about 40mm/s faster than my old Ender 3 at the same print quality — and came in around $600, under budget.</div>
 
 <div class="gallery-strip">
   <img src="/assets/images/printerComplete2.png" alt="Completed printer, angled view">
