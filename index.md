@@ -57,7 +57,7 @@ spec_strip:
   <div>
     <h1 class="project-title">Electric Outboard Motor <span class="status-badge">In progress</span></h1>
   </div>
-  <div class="project-org">University of Michigan Electric Boat Team · 2025–26</div>
+  <div class="project-org">University of Michigan Electric Boat Team</div>
 </div>
 
 <p class="tldr">This year, my project team is racing a fully electric outboard motor I helped design — 40+ hp continuous, under 55V, and powered by three motors linked through a gearbox that we machined from scratch.</p>
@@ -73,7 +73,7 @@ spec_strip:
   <div class="stat"><div class="num">D-Stock</div><div class="label">Planing Hull</div></div>
 </div>
 
-This ongoing project is a part of the University of Michigan Electric Boat Team's 2025/26 competition boat. Our team entered the 2026 PEP Workforce Development Competition - an electric boat race hosted by the American Society of Naval Engineers in Pourtsmouth, VA - in the crewed, planing hull division, which is a 5 mile circle-track race geared towards top-end speed. We are utilizing a D-Stock hull, which is light-weight and optimized for similar circle-track events. I worked on the outboard motor sub-team, where we are creating a light-weight electric outboard motor with at least 40 continuous horsepower at an operating voltage under 55V per the competition rules.
+This ongoing project is a part of the University of Michigan Electric Boat Team's current competition boat. Our team entered the 2026 PEP Workforce Development Competition - an electric boat race hosted by the American Society of Naval Engineers in Pourtsmouth, VA - in the crewed, planing hull division, which is a 5 mile circle-track race geared towards top-end speed. We are utilizing a D-Stock hull, which is light-weight and optimized for such events. I worked on the outboard motor sub-team, where we are creating a light-weight electric outboard motor with at least 40 continuous horsepower at an operating voltage under 55V per the competition rules.
 
 <div class="body-grid" markdown="1">
 
@@ -89,9 +89,9 @@ This ongoing project is a part of the University of Michigan Electric Boat Team'
 </div>
 
 <div class="build-col" markdown="1">
-### Why three motors
+### Tri-Motor Powertrain
 
-At 55.5V, we simply couldn't find a single motor rated for the power we needed — so we built a 48V battery and paired it with three LMT 7065 motors, each rated for 30kW peak. Running them in tandem got us to our target, with the real ceiling ultimately set by cooling, battery capacity, and inverter selection rather than the motors themselves.
+Given the limit of 55.5V, we decided to build a 48V battery. At this voltage, we couldn't find any real options capable of delivering the necessary 30kW continuous. So, we decided on 3 LMT 7065 motors, each rated at 11.2kW continuous. Running them in tandem pushed us well over the our target output, with the real ceiling ultimately set by cooling, battery capacity, and inverter selection rather than the motors themselves.
 
 </div>
 
@@ -102,11 +102,10 @@ At 55.5V, we simply couldn't find a single motor rated for the power we needed �
 <div class="log-step">
   <figure class="log-photo">
     <img src="/assets/images/motor.png" alt="LMT 7065 electric motor">
-    <figcaption>One of the three LMT 7065 motors we settled on after ruling out single-motor options.</figcaption>
+    <figcaption>One of the three LMT 7065 motors we settled</figcaption>
   </figure>
   <div class="log-text">
-    <span class="step-tag">Step 01 — Motor selection</span>
-    <h4>Three smaller motors, one shared goal</h4>
+    <h4>Step 01 — Motor selection</h4>
     <p>Once it was clear no single motor could hit 40+ hp under 55V, we pivoted to three in tandem. It meant more complexity downstream — namely, a gearbox that didn't exist yet — but it was the only path to the power we needed.</p>
   </div>
 </div>
@@ -118,7 +117,7 @@ At 55.5V, we simply couldn't find a single motor rated for the power we needed �
   </figure>
   <div class="log-text">
     <span class="step-tag">Step 02 — Gearbox design</span>
-    <h4>Designing a gearbox from a blank sheet</h4>
+    <h4>Designing a gearbox from scratch</h4>
     <p>We picked our target shaft RPM by studying propellers on similar-class boats, then ran the numbers to find the minimum gear face width our output power would need. From there we worked out gear pitch while juggling how tight the powerhead really was for space. We also sat down with our industry partner, Weismann Transmissions, for a design review on tolerances and shaft seals — a genuinely useful reality check before we committed to machining anything.</p>
   </div>
 </div>
