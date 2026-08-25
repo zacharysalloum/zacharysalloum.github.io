@@ -101,7 +101,7 @@ Given the limit of 55.5V, we decided to build a 48V battery. At this voltage, we
 <div class="log-step">
   <figure class="log-photo">
     <img src="/assets/images/motor.png" alt="LMT 7065 electric motor">
-    <figcaption>One of the three LMT 7065 motors we settled</figcaption>
+    <figcaption>One of the three LMT 7065 motors we selected</figcaption>
   </figure>
   <div class="log-text">
     <h4>Step 01 — Motor selection</h4>
@@ -144,13 +144,13 @@ Given the limit of 55.5V, we decided to build a 48V battery. At this voltage, we
 
 </div>
 
-<h4>Photos</h4>
 <div class="gallery-strip">
   <img src="/assets/images/outboard2.jpeg" alt="Outboard side detail">
   <img src="/assets/images/outboardCad.png" alt="Outboard CAD model">
   <img src="/assets/images/gearbox assembled.jpeg" alt="Fully assembled gearbox">
-  
 </div>
+
+<p>Now, our team is moving forward with dry tests and troubleshooting as we prepare to start our 2026-27 season with a float test.</p>
 </section>
 
 
