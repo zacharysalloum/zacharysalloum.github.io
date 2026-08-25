@@ -72,12 +72,12 @@ header.hero{
 .hero-grid{
   display:grid;
   grid-template-columns:150px 1fr;
-  gap:54px;
+  gap:60px;
   align-items:center;
 }
 .headshot-wrap{
-  width:175px;
-  height:175px;
+  width:200px;
+  height:200px;
   border-radius:50%;
   overflow:hidden;
   box-shadow:0 10px 24px rgba(42,38,32,.15);
