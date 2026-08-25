@@ -79,10 +79,10 @@ This ongoing project is a part of the University of Michigan Electric Boat Team'
 <div class="constraints-col" markdown="1">
 ### Constraints
 
-- Battery capped at 55.5V / 500Ah
+- Battery limit 55.5V / 500Ah
 - 40+ hp continuous (Team goal)
 - 50lbs max weight (Team goal)
-- Comercially available motor + inverter
+- Available motor + inverter
 - IP66 water resistance
 
 </div>
