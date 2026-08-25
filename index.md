@@ -2,7 +2,8 @@
 layout: default
 title: Zachary Salloum
 role_line: "Mechanical Engineering Portfolio"
-lede: "I am a sophomore MechE at the University of Michigan and I love to build. Feel free to get in touch!"
+lede: "I am a sophomore MechE at the University of Michigan and I love to build.
+      Feel free to get in touch!"
 headshot: /assets/images/ZachHeadshot.jpg
 spec_strip:
   - key: Focus
