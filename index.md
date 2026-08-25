@@ -192,15 +192,14 @@ My Ender 3 printer was often inconsistent. The finished prints were not always d
 - $1,000 total budget
 - No mill, lathe, or CNC access
 - 100mm/s at ±0.1mm, ±0.05mm at 50mm/s
-- Maintain benchmark ease-of-use
+- As easy to use as off-the-shelf printers
 
 </div>
 
 <div class="build-col" markdown="1">
-### Starting with the frame
+### Starting off
 
-2020 and 2040 aluminum extrusion won out for the frame — affordable, widely available in different sizes, and light and stiff enough to hold tolerances. T-nuts slide directly into the extrusion, so I never had to tap a single thread, which made fastening everything else to the frame far quicker than I expected.
-
+Before any design could begin, I researched existing 3D printers to determine certain characteristics and features mine should have. For example, I determined a cartesian-style movement system with a fixed-Z-axis bed would be a good platform for the goals I had in mind. Additionally, running a 24V system would be optimal as it would let the system get up to temperature quickly. Lastly, I wanted my printer to feature linear rods for precise movement.
 </div>
 
 </div>
