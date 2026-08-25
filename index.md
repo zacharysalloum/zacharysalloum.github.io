@@ -209,60 +209,55 @@ Before any design could begin, I researched existing 3D printers to determine ce
 <div class="log-step">
   <figure class="log-photo">
     <img src="/assets/images/printerFrame.png" alt="Printer frame assembly">
-    <figcaption>The 2020/2040 extrusion frame, bolted together with t-nuts and brackets.</figcaption>
+    <figcaption>The complete 2020/2040 extrusion frame</figcaption>
   </figure>
   <div class="log-text">
-    <span class="step-tag">Step 01 — Frame</span>
-    <h4>A stiff, lightweight skeleton</h4>
-    <p>The frame had to be rigid enough to hold real tolerances but light enough not to fight the moving axes. Aluminum extrusion made both easy — and made the whole build feel more like assembling furniture than machining metal.</p>
+    <h4>Step 01 — Building the Frame</h4>
+    <p>The first step in the build was assembling the frame. Aluminum extrusions stood out as the most effective material for their affordability, availability, and stiffness. Additionally, they are lightweight and can be quickly fixed together with brackets, screws, and t-nuts. This allows for quick assembly and prototyping, as using t-nuts eliminates the need to drill holes and tap threads.</p>
   </div>
 </div>
 
 <div class="log-step reverse">
   <figure class="log-photo">
     <img src="/assets/images/printerFrame2.png" alt="Y and Z axis rods mounted">
-    <figcaption>Y and Z linear rods going in, held by custom 3D-printed mounts.</figcaption>
+    <figcaption>Y and Z axis linear rods and motors</figcaption>
   </figure>
   <div class="log-text">
-    <span class="step-tag">Step 02 — Motion mounts</span>
-    <h4>Printing the parts I couldn't machine</h4>
-    <p>With no mill or lathe on hand, every custom bracket had to come off my own printer first — the Y/Z rod mounts, stepper motor mounts, endstop brackets, and the belt tensioner for the Y axis. It's a strange, recursive feeling: 3D printing the parts for a better 3D printer.</p>
+    <h4>Step 02 — Y and Z motion system installation</h4>
+    <p>The next step was mounting the Y and Z axis linear rods and stepper motors. This was accomplished by designing and 3D printing custom mounts to secure the rods and motors to the frame. The mount designs went through several iterations to ensure optimal rod rigidity and spacing. Various other parts were also integrated during this step, including endstop mounts, Z-axis leadscrews, and the Y-axis belt pulleys.</p>
   </div>
 </div>
 
 <div class="log-step">
   <figure class="log-photo">
     <img src="/assets/images/frameComplete.png" alt="X-axis gantry assembled">
-    <figcaption>The X-axis gantry — linear rods on both ends, riding on printed carriages.</figcaption>
+    <figcaption>The X-axis gantry, without the toolhead </figcaption>
   </figure>
   <div class="log-text">
-    <span class="step-tag">Step 03 — X-axis gantry</span>
-    <h4>Getting the gantry moving</h4>
-    <p>Two linear rods attach to custom printed end pieces, which also house the bearings and leadscrew nuts that let the whole X-axis travel vertically. A stepper motor sits on one bracket, the belt pulley on the other, with a third printed piece riding the bearings to eventually hold the hot-end.</p>
+    <h4>Step 03 — Building the X-axis gantry</h4>
+    <p>Next, the X-axis gantry was assembled. It consists of 2 linear rods joined by a custom 3D printed piece on each end. Those end pieces also contain bearings and leadscrew nuts, allowing the gantry to move vertically. The X-stepper motor is mounted to the left bracket, and the belt pulley is fixed to the bracket on the right. Another 3D printed piece rides on the X-axis bearings; it will serve as the mount for the hot-end and part cooling fan. Designing this assembly was extremely difficult, as everything had to fit together with virtually zero slop.</p>
   </div>
 </div>
 
 <div class="log-step reverse">
   <figure class="log-photo">
     <img src="/assets/images/printerHotend.png" alt="Hot-end and heated bed assembly">
-    <figcaption>Heated bed and hot-end going in — the part where the printer starts looking like a printer.</figcaption>
+    <figcaption>Heated bed and hot-end integration</figcaption>
   </figure>
   <div class="log-text">
-    <span class="step-tag">Step 04 — Bed &amp; hot-end</span>
-    <h4>Heated bed and hot-end</h4>
-    <p>The heated bed clamps to an aluminum plate suspended on four springs — standard FDM design, but satisfying to get right, since it's what lets you dial in bed leveling by hand. The hot-end mounting plate clamps onto the X-axis bearings, with the cooling fan, duct, and drive belt all fixed to the same bracket so the whole assembly moves as one unit.</p>
+    <h4>Step 04 — Heated bed and hot-end installation</h4>
+    <p>Next, the heated bed and hot-end assemblies were built and installed. The heated bed sits above an aluminum carriage plate that clamps onto the linear rod bearings. The two plates are separated by 4 springs and screws to allow for height adjustment of the heated bed. The hot-end assembly consists of a 3D printed mounting plate that clamps onto the X-axis bearings, the hot-end itself, as well as a cooling fan and duct. At this point, the X and Y drive belts were installed and tensioned.</p>
   </div>
 </div>
 
 <div class="log-step">
   <figure class="log-photo">
     <img src="/assets/images/printerExtruder.png" alt="Bowden extruder assembly">
-    <figcaption>The Bowden extruder — mounted to the frame instead of the hot-end, to keep weight down.</figcaption>
+    <figcaption>The Bowden extruder, mounted to the frame</figcaption>
   </figure>
   <div class="log-text">
-    <span class="step-tag">Step 05 — Extruder</span>
-    <h4>Choosing Bowden over direct-drive</h4>
-    <p>Since speed was the whole point of this build, I went with a Bowden-style extruder — it pushes filament through a tube into the hot-end, so the stepper motor mounts to the frame rather than riding on the gantry. Direct-drive setups get "ringing" at high speed because of the added weight; Bowden avoids that, and lets you run a bigger, cooler-running motor.</p>
+    <h4>Step 05 — Extrusion system installation</h4>
+    <p>This printer's extrusion system consists of a stepper motor, custom mounting bracket, extruder, and bowden tube. I used an off-the-shelf extruder due to its affordability and effectiveness. A Bowden style extruder was chosen for this build, due to this printer's emphasis on printing speed. Bowden extruders push filament through a tube, into the hot-end. This allows the stepper motor and extruder to be mounted to the frame of the printer, rather than directly to the hot-end. This prevents the "ringing" effect seen at higher print speeds when too much weight is placed on the hot-end. Additionally, a larger, cooler-running motor can be used.</p>
   </div>
 </div>
 
@@ -272,9 +267,8 @@ Before any design could begin, I researched existing 3D printers to determine ce
     <figcaption>Custom-enclosed electronics bay: mainboard, drivers, and the touchscreen controller.</figcaption>
   </figure>
   <div class="log-text">
-    <span class="step-tag">Step 06 — Electronics</span>
-    <h4>Wiring it all together</h4>
-    <p>A BigTreeTech SKR Mini E3 runs the show — a $40 mainboard with a 32-bit processor, silent TMC2209 drivers, and plenty of fan ports, paired with a BTT TFT35 touchscreen for a clean, easy-to-read UI. I added a 25A mosfet for the heated bed since the mainboard's built-in one wasn't enough, and 3D printed enclosures for everything, with cooling fans wherever things ran warm.</p>
+    <h4>Step 06 — Electronics installation</h4>
+    <p>Finally, 4 key electronics were installed. First, a 24V 350W power supply was chosen to power the printer. Then, a BigTreeTech SKR Mini E3 mainboard was chosen due to its affordability and robustness, as it has a 32-bit processor, silent TMC2209 motor drivers, and a multitude of fan ports. It also meshes well with the BTT TFT35 LCD screen, which I chose to be the screen for this printer due to its clean UI, and touchscreen function. Finally, I installed a 25A mosfet to control the heated bed, as the main-board's built-in mosfet was not adequate. Custom enclosures were designed and 3D printed to house these parts, with cooling fans used where necessary.</p>
   </div>
 </div>
 
@@ -295,11 +289,11 @@ Before any design could begin, I researched existing 3D printers to determine ce
 <div class="conclusion" markdown="1">
 ### What I learned
 
-Overall, this project delivered on most of what I set out to do, and taught me a lot about how FDM printers actually work under the hood. At around $600, I came in under budget, and the finished machine prints roughly 40mm/s faster than my old Ender 3 while holding the same quality.
+Overall, this project was very successful. I learned much about how FDM 3D printers work, and made real improvements in my design. The finished printer, while not perfect, achieved many of the goals I had in mind, and performed significantly better than my Creality Ender 3. And, at around $650, I spent less on this project than I had budgeted. Ultimately, the machine I built was able to print roughly 40mm/s faster than my Creality Ender-3 while retaining the same print quality. However, speed was not ultimately this printer's greatest strength, due to the large print surface. While the X-axis was set up to be light weight, the sliding bed assembly was relatively heavy. Moving it at overly high speeds resulted in the stepper motors overheating, which produces worsened print quality. This demonstrates the fundamental trade-off between speed and build capacity on printers with moving beds: as the size of the build surface increases, the harder it is to move quickly and accurately. That said, this machine's build volume was very satisfactory: 280mm x 280mm x 300mm, compared to the Ender 3's build volume of 220mm x 220mm x 250mm.
 
-Speed wasn't its biggest strength, though — the moving bed is heavier than I'd like, and pushing it too fast overheats the steppers and hurts print quality. It's a good reminder that build volume and print speed pull against each other on any printer with a moving bed; the bigger the bed, the harder it is to move quickly and accurately.
+Additionally, the machine offers excellent dimensional accuracy due to the linear rod bearing system. While many cheaper 3D printers use v-slot wheels that slide along the aluminum extrusions, my machine utilized linear rods and bearings. This system is superior as it offers less rolling resistance and more precise movement. This style of bearing also wears out less over time. The result was dimensional accuracy of around +/- 0.05mm in all of my tests, which was the greatest success of this project. Another strength of this 3D printer is its capacity for high temperature printing. While many 3D printers are typically rated up to 240 degree Celcius, this one has an all-metal hot-end from E3D, and can achieve temperatures up to 300 Celcius. This enables it to print a multitude of different filaments. Finally, I am proud of the machine's form factor and usability. The frame of the machine was extremely stiff and lightweight, and it is very easy to build onto to it in the future. The heated bed is magnetic, allowing build surfaces to be quickly swapped, and the LCD touchscreen I installed makes using the machine very straightforward and easy. 
 
-Where it really shines is accuracy: the linear rod bearing system (versus the v-slot wheels most budget printers use) gave me roughly ±0.05mm dimensional accuracy across my tests — less rolling resistance, more precise movement, and less wear over time. It also runs hot: the E3D all-metal hot-end handles up to 300°C, well past the ~240°C ceiling on most consumer printers, which opens the door to a lot more filament types. And with a magnetic bed and the touchscreen UI, it's genuinely easy to live with day to day — versatile, and about as simple to operate as anything you'd buy off the shelf.
+The final result was a versatile printer that produces quality results and is as easy to use as most other 3D printers on the market.
 </div>
 
 </section>
