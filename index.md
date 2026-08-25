@@ -223,7 +223,7 @@ Before any design could begin, I researched existing 3D printers to determine ce
     <figcaption>Y and Z axis linear rods and motors</figcaption>
   </figure>
   <div class="log-text">
-    <h4>Step 02 — Y and Z motion system installation</h4>
+    <h4>Step 02 — Installing the Y and Z motion system</h4>
     <p>The next step was mounting the Y and Z axis linear rods and stepper motors. This was accomplished by designing and 3D printing custom mounts to secure the rods and motors to the frame. The mount designs went through several iterations to ensure optimal rod rigidity and spacing. Various other parts were also integrated during this step, including endstop mounts, Z-axis leadscrews, and the Y-axis belt pulleys.</p>
   </div>
 </div>
@@ -242,10 +242,10 @@ Before any design could begin, I researched existing 3D printers to determine ce
 <div class="log-step reverse">
   <figure class="log-photo">
     <img src="/assets/images/printerHotend.png" alt="Hot-end and heated bed assembly">
-    <figcaption>Heated bed and hot-end integration</figcaption>
+    <figcaption>Heated bed and hot-end installed</figcaption>
   </figure>
   <div class="log-text">
-    <h4>Step 04 — Heated bed and hot-end installation</h4>
+    <h4>Step 04 — Adding the geated bed and hot-end</h4>
     <p>Next, the heated bed and hot-end assemblies were built and installed. The heated bed sits above an aluminum carriage plate that clamps onto the linear rod bearings. The two plates are separated by 4 springs and screws to allow for height adjustment of the heated bed. The hot-end assembly consists of a 3D printed mounting plate that clamps onto the X-axis bearings, the hot-end itself, as well as a cooling fan and duct. At this point, the X and Y drive belts were installed and tensioned.</p>
   </div>
 </div>
@@ -256,7 +256,7 @@ Before any design could begin, I researched existing 3D printers to determine ce
     <figcaption>The Bowden extruder, mounted to the frame</figcaption>
   </figure>
   <div class="log-text">
-    <h4>Step 05 — Extrusion system installation</h4>
+    <h4>Step 05 — Building the extrusion system</h4>
     <p>This printer's extrusion system consists of a stepper motor, custom mounting bracket, extruder, and bowden tube. I used an off-the-shelf extruder due to its affordability and effectiveness. A Bowden style extruder was chosen for this build, due to this printer's emphasis on printing speed. Bowden extruders push filament through a tube, into the hot-end. This allows the stepper motor and extruder to be mounted to the frame of the printer, rather than directly to the hot-end. This prevents the "ringing" effect seen at higher print speeds when too much weight is placed on the hot-end. Additionally, a larger, cooler-running motor can be used.</p>
   </div>
 </div>
@@ -267,7 +267,7 @@ Before any design could begin, I researched existing 3D printers to determine ce
     <figcaption>Custom-enclosed electronics bay: mainboard, drivers, and the touchscreen controller.</figcaption>
   </figure>
   <div class="log-text">
-    <h4>Step 06 — Electronics installation</h4>
+    <h4>Step 06 — Integrating electronics</h4>
     <p>Finally, 4 key electronics were installed. First, a 24V 350W power supply was chosen to power the printer. Then, a BigTreeTech SKR Mini E3 mainboard was chosen due to its affordability and robustness, as it has a 32-bit processor, silent TMC2209 motor drivers, and a multitude of fan ports. It also meshes well with the BTT TFT35 LCD screen, which I chose to be the screen for this printer due to its clean UI, and touchscreen function. Finally, I installed a 25A mosfet to control the heated bed, as the main-board's built-in mosfet was not adequate. Custom enclosures were designed and 3D printed to house these parts, with cooling fans used where necessary.</p>
   </div>
 </div>
