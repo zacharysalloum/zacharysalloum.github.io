@@ -218,7 +218,7 @@ h1.name{
 
 .tldr{
   font-size:20px;
-  max-width:74ch;
+  max-width: 100%;
   margin:0 0 32px;
   color:#2a3742;
 }
