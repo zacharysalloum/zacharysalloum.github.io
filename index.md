@@ -17,7 +17,7 @@ spec_strip:
 
 <section class="project" id="about-more" markdown="1">
 
-<p class="tldr">Since I was a kid, I've always enjoyed doing. In engineering, this has meant getting involved in project teams, internships, and personal projects where I've been able to take my ideas from design to prototype. Outside of engineering, it has meant staying busy with several different hobbies</p>
+<p class="tldr">Since I was a kid, I've always enjoyed learning by doing. In engineering, this has meant getting involved in project teams, internships, and personal projects where I've been able to take my ideas from design to prototype. Outside of engineering, it has meant engaging in several different hobbies that enrich my life</p>
 
 <div class="body-grid" markdown="1">
 
@@ -59,7 +59,7 @@ spec_strip:
   <div class="project-org">University of Michigan Electric Boat Team</div>
 </div>
 
-<p class="tldr">This year, my project team is racing a fully electric outboard motor I helped design — 40+ hp continuous, under 55V, and powered by three motors linked through a gearbox that we machined from scratch.</p>
+<p class="tldr">This year, my project team is racing a fully electric outboard motor that I helped design — 40+ hp continuous, under 55V, and powered by three motors linked through a gearbox that we machined from scratch.</p>
 
 <div class="hero-shot">
   <img src="/assets/images/hull.jpeg" alt="Team boat hull">
