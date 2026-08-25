@@ -303,7 +303,7 @@ h1.name{
   grid-template-columns:1fr 1fr;
   gap:36px;
   align-items:center;
-  margin-bottom:36px;
+  margin-bottom:24px;
 }
 .log-step.reverse .log-photo{order:2;}
 .log-step.reverse .log-text{order:1;}
