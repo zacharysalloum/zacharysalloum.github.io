@@ -199,6 +199,7 @@ h1.name{
   font-style:italic;
   font-size:15px;
   color:var(--muted);
+  text-align: left;
 }
 .status-badge{
   display:inline-block;
