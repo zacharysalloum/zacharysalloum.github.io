@@ -82,7 +82,7 @@ This ongoing project is a part of the University of Michigan Electric Boat Team'
 
 - Battery limit 55.5V / 500Ah
 - 40+ hp continuous (Team goal)
-- 50lbs max weight (Team goal)
+- 100lbs max weight (Team goal)
 - Available motor + inverter
 - IP66 water resistance
 
@@ -192,7 +192,7 @@ My Ender 3 printer was often inconsistent. The finished prints were not always d
 
 - $1,000 total budget
 - No mill, lathe, or CNC access
-- 100mm/s at ±0.1mm, ±0.05mm at 50mm/s
+- ±0.05mm at 100mm/s
 - As easy to use as off-the-shelf printers
 
 </div>
@@ -290,7 +290,7 @@ Before any design could begin, I researched existing 3D printers to determine ce
 <div class="conclusion" markdown="1">
 ### What I learned
 
-Overall, this project was very successful. I learned much about how FDM 3D printers work, and made real improvements in my design. The finished printer, while not perfect, achieved many of the goals I had in mind, and performed significantly better than my Creality Ender 3. And, at around $650, I spent less on this project than I had budgeted. Ultimately, the machine I built was able to print roughly 40mm/s faster than my Creality Ender-3 while retaining the same print quality. However, speed was not ultimately this printer's greatest strength, due to the large print surface. While the X-axis was set up to be light weight, the sliding bed assembly was relatively heavy. Moving it at overly high speeds resulted in the stepper motors overheating, which produces worsened print quality. This demonstrates the fundamental trade-off between speed and build capacity on printers with moving beds: as the size of the build surface increases, the harder it is to move quickly and accurately. That said, this machine's build volume was very satisfactory: 280mm x 280mm x 300mm, compared to the Ender 3's build volume of 220mm x 220mm x 250mm.
+Overall, this project was very successful. I learned much about how FDM 3D printers work, and made real improvements in my design. The finished printer, while not perfect, achieved many of the goals I had in mind, and performed significantly better than my Creality Ender 3. And, at around $600, I spent less on this project than I had budgeted. Ultimately, the machine I built was able to print roughly 40mm/s faster than my Creality Ender-3 while retaining the same print quality. However, speed was not ultimately this printer's greatest strength, due to the large print surface. While the X-axis was set up to be light weight, the sliding bed assembly was relatively heavy. Moving it at overly high speeds resulted in the stepper motors overheating, which produces worsened print quality. This demonstrates the fundamental trade-off between speed and build capacity on printers with moving beds: as the size of the build surface increases, the harder it is to move quickly and accurately. That said, this machine's build volume was very satisfactory: 280mm x 280mm x 300mm, compared to the Ender 3's build volume of 220mm x 220mm x 250mm.
 
 Additionally, the machine offers excellent dimensional accuracy due to the linear rod bearing system. While many cheaper 3D printers use v-slot wheels that slide along the aluminum extrusions, my machine utilized linear rods and bearings. This system is superior as it offers less rolling resistance and more precise movement. This style of bearing also wears out less over time. The result was dimensional accuracy of around +/- 0.05mm in all of my tests, which was the greatest success of this project. Another strength of this 3D printer is its capacity for high temperature printing. While many 3D printers are typically rated up to 240 degree Celcius, this one has an all-metal hot-end from E3D, and can achieve temperatures up to 300 Celcius. This enables it to print a multitude of different filaments. Finally, I am proud of the machine's form factor and usability. The frame of the machine was extremely stiff and lightweight, and it is very easy to build onto to it in the future. The heated bed is magnetic, allowing build surfaces to be quickly swapped, and the LCD touchscreen I installed makes using the machine very straightforward and easy. 
 
